@@ -22,11 +22,11 @@ else:
 
 res = r'<li><a .*?>(.*?)</a></li>'
 mm =  re.findall(res, contents, re.S|re.M)
-i = 0
+#i = 0
 for value in mm:
-    if i > 10:
-        break
-    i = i+1
+#    if i > 10:
+#        break
+#    i = i+1
     url = 'http://sug.music.baidu.com/info/suggestion'
     payload = {'word': value, 'version': '2', 'from': '0'}
     print value
@@ -53,7 +53,7 @@ for value in mm:
     songlink = d["data"]["songList"][0]["songLink"]
     print "find songlink: "
     if(len(songlink) < 10):
-        print "do not have flac\n"
+        print "\tdo not have flac\n"
         continue
     print songlink
 
