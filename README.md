@@ -14,8 +14,10 @@
 
 ### 获取歌单
 到[网易云音乐网页版](http://music.163.com/#)找出想要下载无损的歌单, 如下图
-[NeteaseCloudMusicFlac](http://av.jejeso.com/pic.png)
-然后进入歌单, 地址栏地址便是歌单地址.
+
+![NeteaseCloudMusicFlac](http://av.jejeso.com/pic.png)
+
+后进入歌单, 地址栏地址便是歌单地址.
 但是要把http://music.163.com/#/playlist?id=145258012里的#/删除掉
 
 ### 使用
