@@ -42,9 +42,10 @@
 	pip install requests
 
 ### TODO list
-1. 使用PEP8 Python 编码规范整理代码
+~~ 1. 使用PEP8 Python 编码规范整理代码 ~~
 2. 目前只是匹配歌曲名字, 最好加上匹配歌手名
 3. 歌曲匹配率不高, 可以考虑再到其他网站抓
+4. 自动删除小于10M的歌曲
 
 Enjoy it !
 
