@@ -1,6 +1,7 @@
 # NeteaseCloudMusicFlac
 
-#### [感谢](https://github.com/imfangli/baidu-music-downloader)为 NeteaseCloudMusicFlac 的开发付出过努力的每一个人！
+#### [感谢](https://github.com/imfangli/baidu-music-downloader)为 NeteaseCloudMusicFlac 的开发付出过努力以及提出建议的每一个人！
+
 
 根据网易云音乐歌单, 下载对应无损FLAC歌曲到本地.
 
@@ -26,7 +27,12 @@
 
 ### 示例命令
 
-	$ python main.py http://music.163.com/#/playlist?id=145258012
+	$ python main.py http://music.163.com/playlist?id=145258012
+
+### 如果告知缺乏module
+下载对应的模块(module), 网上搜索如何安装python模块.
+
+	pip install requests
 
 Enjoy it !
 如侵权, 请告知, 马上停止该项目.
