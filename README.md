@@ -47,12 +47,15 @@
 3. 歌曲匹配率不高, 可以考虑再到其他网站抓
 
 Enjoy it !
-如侵权, 请告知, 马上停止该项目.
+
+### 版权问题
+如果涉及版权问题，项目将立刻关闭。
+自己为百度音乐会员, 该项目为方便自己而做
 
 
 ### The MIT License (MIT)
 
-CopyRight (c) 2015 YongHaoHu  &lt;<a href="christopherwuy@gmail.com">christopherwuy@gmail.com</a>&gt;
+CopyRight (c) 2016 YongHaoHu  &lt;<a href="christopherwuy@gmail.com">christopherwuy@gmail.com</a>&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
