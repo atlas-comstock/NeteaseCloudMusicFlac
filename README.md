@@ -34,6 +34,11 @@
 
 	pip install requests
 
+### TODO list
+1. 使用PEP8 Python 编码规范整理代码
+2. 目前只是匹配歌曲名字, 最好加上匹配歌手名
+3. 歌曲匹配率不高, 可以考虑再到其他网站抓
+
 Enjoy it !
 如侵权, 请告知, 马上停止该项目.
 
