@@ -2,19 +2,15 @@ import re
 import requests
 import json
 import urllib2
-import os, sys
+import os
+import sys
 
-print "fetching msg from "+sys.argv[1]+"\n "
+print "fetching msg from " + sys.argv[1] + "\n"
 url = sys.argv[1]
-#url = 'http://music.163.com/playlist?id=39123016'
-r = requests.get(url)
+r   = requests.get(url)
 contents = r.text
-#print contents
-#print 'getcontent'
 res = r'<ul class="f-hide">(.*?)</ul>'
-mm =  re.findall(res, contents, re.S|re.M)
-#print mm
-#print 'getcontent'
+mm  =  re.findall(res, contents, re.S|re.M)
 if(mm):
     contents = mm[0]
 else:
@@ -22,12 +18,9 @@ else:
     os._exit(0)
 
 res = r'<li><a .*?>(.*?)</a></li>'
-mm =  re.findall(res, contents, re.S|re.M)
-#i = 0
+mm  =  re.findall(res, contents, re.S|re.M)
+
 for value in mm:
-#    if i > 10:
-#        break
-#    i = i+1
     url = 'http://sug.music.baidu.com/info/suggestion'
     payload = {'word': value, 'version': '2', 'from': '0'}
     print value
@@ -35,7 +28,7 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if('data' not in d):#or d.has_key('song')!=True or d.has_key('songid')!=True
+    if('data' not in d):
         continue
     songid = d["data"]["song"][0]["songid"]
     print "find songid: "
@@ -44,11 +37,8 @@ for value in mm:
     url = "http://music.baidu.com/data/music/fmlink"
     payload = {'songIds': songid, 'type': 'flac'}
     r = requests.get(url, params=payload)
-    #print r.text
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    #print d
-    #print json_str
     if('data' not in d):
         continue
     songlink = d["data"]["songList"][0]["songLink"]
