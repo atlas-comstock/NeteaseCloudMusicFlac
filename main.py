@@ -4,7 +4,7 @@ import json
 import urllib2
 import os, sys
 
-print "fetching msg from "+sys.argv[1]+"\n Please make sure the url is right.\n"
+print "fetching msg from "+sys.argv[1]+"\n "
 url = sys.argv[1]
 #url = 'http://music.163.com/playlist?id=39123016'
 r = requests.get(url)
@@ -18,7 +18,8 @@ mm =  re.findall(res, contents, re.S|re.M)
 if(mm):
     contents = mm[0]
 else:
-    os._exit()
+    print 'Can not fetch information form URL. Please make sure the URL is right.\n'
+    os._exit(0)
 
 res = r'<li><a .*?>(.*?)</a></li>'
 mm =  re.findall(res, contents, re.S|re.M)
@@ -34,7 +35,7 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if(d.has_key('data')!=True ):#or d.has_key('song')!=True or d.has_key('songid')!=True
+    if('data' in d != True):#or d.has_key('song')!=True or d.has_key('songid')!=True
         continue
     songid = d["data"]["song"][0]["songid"]
     print "find songid: "
@@ -48,7 +49,7 @@ for value in mm:
     d = json.loads(contents, encoding="utf-8")
     #print d
     #print json_str
-    if(d.has_key('data')!=True | d.has_key('songList')!=True | d.has_key('songLink')!=True):
+    if('data' in d != True):
         continue
     songlink = d["data"]["songList"][0]["songLink"]
     print "find songlink: "
