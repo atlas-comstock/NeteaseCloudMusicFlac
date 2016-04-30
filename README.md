@@ -47,10 +47,10 @@ python3下载使用此网站上的python3_main.py
 ### 如果告知缺乏module
 下载对应的模块(module), 网上搜索如何安装python模块.
 
-## python2
+###### python2
 	pip install requests
 
-## python3
+##### python3
 	pip3 install requests
 
 ### TODO list
