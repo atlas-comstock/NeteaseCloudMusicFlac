@@ -21,7 +21,9 @@
 [根据此网站教程安装Python](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001374738150500472fd5785c194ebea336061163a8a974000)
 
 #### 下载main.py或者python3_main.py
+
 python2下载使用此网站上的main.py
+
 python3下载使用此网站上的python3_main.py
 
 ### 获取歌单
