@@ -6,7 +6,7 @@ import os
 import sys
 
 print "fetching msg from " + sys.argv[1] + "\n"
-url = sys.argv[1]
+url = re.sub("#/", "", sys.argv[1])
 r   = requests.get(url)
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'

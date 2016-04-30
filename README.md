@@ -29,20 +29,27 @@
 ![NeteaseCloudMusicFlac](http://av.jejeso.com/pic.png)
 
 后进入歌单, 地址栏地址便是歌单地址.
-但是要把http://music.163.com/#/playlist?id=145258012里的#/删除掉
 
 ### 使用
 
-	$ python main.py 歌单地址(如上图便是: http://music.163.com/playlist?id=145258012)
+	$ python main.py 歌单地址(如上图便是: http://music.163.com/#/playlist?id=145258012)
 
-### 示例命令
+### python2示例命令
 
-	$ python main.py http://music.163.com/playlist?id=145258012
+	$ python main.py http://music.163.com/#/playlist?id=145258012
+
+### python3示例命令
+
+	$ python3 python3_main.py http://music.163.com/#/playlist?id=145258012
+
 
 ### 如果告知缺乏module
 下载对应的模块(module), 网上搜索如何安装python模块.
 
 	pip install requests
+
+python3
+	pip3 install requests
 
 ### TODO list
 ~~ 1. 使用PEP8 Python 编码规范整理代码 ~~
