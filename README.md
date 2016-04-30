@@ -20,8 +20,9 @@
 #### 安装Python
 [根据此网站教程安装Python](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001374738150500472fd5785c194ebea336061163a8a974000)
 
-#### 下载main.py
-下载此网站上的main.py
+#### 下载main.py或者python3_main.py
+python2下载使用此网站上的main.py
+python3下载使用此网站上的python3_main.py
 
 ### 获取歌单
 到[网易云音乐网页版](http://music.163.com/#)找出想要下载无损的歌单, 如下图
@@ -46,13 +47,14 @@
 ### 如果告知缺乏module
 下载对应的模块(module), 网上搜索如何安装python模块.
 
+## python2
 	pip install requests
 
-python3
+## python3
 	pip3 install requests
 
 ### TODO list
-~~ 1. 使用PEP8 Python 编码规范整理代码 ~~
+1. 使用PEP8 Python 编码规范整理代码
 2. 目前只是匹配歌曲名字, 最好加上匹配歌手名
 3. 歌曲匹配率不高, 可以考虑再到其他网站抓
 4. 自动删除小于10M的歌曲
