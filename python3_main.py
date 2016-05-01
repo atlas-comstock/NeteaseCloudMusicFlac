@@ -61,3 +61,6 @@ for value in mm:
     f = urllib.request.urlopen(songlink)
     with open(filename, "wb") as code:
         code.write(f.read())
+
+print ("\n================================================================")
+print ("\nDownload finish!\nSongs' directory is %s/songs_dir" %os.getcwd())
