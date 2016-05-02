@@ -55,10 +55,12 @@ for value in mm:
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
     filename = "./" + songdir + "/"+songname+"-"+artistName+".flac"
-    if os.path.getsize(filename) < 10000 * 1024: #Source from http://stackoverflow.com/questions/8626325/most-efficient-way-to-delete-a-file-if-its-below-a-certain-size
-        os.remove(filename)
+    
     print filename + " is downloading now ......\n\n"
-
+        
     f = urllib2.urlopen(songlink)
     with open(filename, "wb") as code:
         code.write(f.read())
+
+    if os.path.getsize(filename) < 10000 * 1024: #Source from http://stackoverflow.com/questions/8626325/most-efficient-way-to-delete-a-file-if-its-below-a-certain-size
+        os.remove(filename)
