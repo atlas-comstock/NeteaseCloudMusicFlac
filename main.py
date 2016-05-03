@@ -56,18 +56,17 @@ for value in mm:
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
     filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
-    print filename + " is downloading now ......\n\n"
 
     if not os.path.isfile(filename):
-        print "%s is downloading now ......\n\n" % filename
-        f = urllib.request.urlopen(songlink)
+        print "%s is downloading now ......\n" % filename
+        f = urllib2.urlopen(songlink)
         headers = requests.head(songlink).headers
         size = int(headers['Content-Length']) / (1024 ** 2)
         if size >= minimumsize:
             with open(filename, "wb") as code:
                 code.write(f.read())
         else:
-            print "the size of %s (%r Mb) is less than 10 Mb, skipping" % (filename, size)
+            print "the size of %s (%r Mb) is less than 10 Mb, skipping\n\n" % (filename, size)
     else:
         print "%s is already downloaded. Finding next song...\n\n" % songname
 
