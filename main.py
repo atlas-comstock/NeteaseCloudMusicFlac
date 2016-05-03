@@ -57,11 +57,12 @@ for value in mm:
     artistName = d["data"]["songList"][0]["artistName"]
     filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
 
-    if not os.path.isfile(filename):
+    f = urllib2.urlopen(songlink)
+    headers = requests.head(songlink).headers
+    size = int(headers['Content-Length']) / (1024 ** 2)
+    #Download unfinished Flacs again.
+    if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize:
         print "%s is downloading now ......\n" % filename
-        f = urllib2.urlopen(songlink)
-        headers = requests.head(songlink).headers
-        size = int(headers['Content-Length']) / (1024 ** 2)
         if size >= minimumsize:
             with open(filename, "wb") as code:
                 code.write(f.read())

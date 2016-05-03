@@ -58,11 +58,13 @@ for value in mm:
     artistName = d["data"]["songList"][0]["artistName"]
     filename = ("%s/%s/%s-%s.flac" %
                 (CURRENT_PATH, songdir, songname, artistName))
-    if not os.path.isfile(filename):
+
+    f = urllib.request.urlopen(songlink)
+    headers = requests.head(songlink).headers
+    size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
+    #Download unfinished Flacs again.
+    if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize: #Delete useless flacs
         print("%s is downloading now ......\n\n" % songname)
-        f = urllib.request.urlopen(songlink)
-        headers = requests.head(songlink).headers
-        size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
         if size >= minimumsize:
             with open(filename, "wb") as code:
                 code.write(f.read())
