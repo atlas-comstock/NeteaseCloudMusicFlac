@@ -60,6 +60,9 @@ for value in mm:
     f = urllib2.urlopen(songlink)
     with open(filename, "wb") as code:
         code.write(f.read())
-
+    
+    if os.path.getsize(filename) < 10000 * 1024: #Source from http://stackoverflow.com/questions/8626325/most-efficient-way-to-delete-a-file-if-its-below-a-certain-size
+        os.remove(filename)
+        print "\nFile removed as it is under 10 Mb."
 print "\n================================================================"
 print "\nDownload finish!\nSongs' directory is " + os.getcwd() + "/songs_dir"
