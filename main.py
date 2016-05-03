@@ -8,10 +8,10 @@ import sys
 minimumsize = 10
 print "fetching msg from " + sys.argv[1] + "\n"
 url = re.sub("#/", "", sys.argv[1])
-r   = requests.get(url)
+r = requests.get(url)
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'
-mm  =  re.findall(res, contents, re.S|re.M)
+mm = re.findall(res, contents, re.S | re.M)
 if(mm):
     contents = mm[0]
 else:
@@ -19,7 +19,7 @@ else:
     os._exit(0)
 
 res = r'<li><a .*?>(.*?)</a></li>'
-mm  =  re.findall(res, contents, re.S|re.M)
+mm = re.findall(res, contents, re.S | re.M)
 
 for value in mm:
     url = 'http://sug.music.baidu.com/info/suggestion'
@@ -55,7 +55,7 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
-    filename = "./" + songdir + "/"+songname+"-"+artistName+".flac"
+    filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
     print filename + " is downloading now ......\n\n"
 
     if not os.path.isfile(filename):
@@ -69,7 +69,6 @@ for value in mm:
         else:
             print "the size of %s (%r Mb) is less than 10 Mb, skipping" % (filename, size)
     else:
-        songname = os.path.basename(filename)
         print "%s is already downloaded. Finding next song...\n\n" % songname
 
 print "\n================================================================"
