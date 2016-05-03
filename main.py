@@ -5,12 +5,13 @@ import urllib2
 import os
 import sys
 
+minimumsize = 10
 print "fetching msg from " + sys.argv[1] + "\n"
 url = re.sub("#/", "", sys.argv[1])
-r   = requests.get(url)
+r = requests.get(url)
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'
-mm  =  re.findall(res, contents, re.S|re.M)
+mm = re.findall(res, contents, re.S | re.M)
 if(mm):
     contents = mm[0]
 else:
@@ -18,7 +19,7 @@ else:
     os._exit(0)
 
 res = r'<li><a .*?>(.*?)</a></li>'
-mm  =  re.findall(res, contents, re.S|re.M)
+mm = re.findall(res, contents, re.S | re.M)
 
 for value in mm:
     url = 'http://sug.music.baidu.com/info/suggestion'
@@ -39,7 +40,7 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if('data' not in d):
+    if d is not None and 'data' not in d or d['data'] == '':
         continue
     songlink = d["data"]["songList"][0]["songLink"]
     print "find songlink: "
@@ -54,12 +55,21 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
-    filename = "./" + songdir + "/"+songname+"-"+artistName+".flac"
+    filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
     print filename + " is downloading now ......\n\n"
 
-    f = urllib2.urlopen(songlink)
-    with open(filename, "wb") as code:
-        code.write(f.read())
+    if not os.path.isfile(filename):
+        print "%s is downloading now ......\n\n" % filename
+        f = urllib.request.urlopen(songlink)
+        headers = requests.head(songlink).headers
+        size = int(headers['Content-Length']) / (1024 ** 2)
+        if size >= minimumsize:
+            with open(filename, "wb") as code:
+                code.write(f.read())
+        else:
+            print "the size of %s (%r Mb) is less than 10 Mb, skipping" % (filename, size)
+    else:
+        print "%s is already downloaded. Finding next song...\n\n" % songname
 
 print "\n================================================================"
 print "\nDownload finish!\nSongs' directory is " + os.getcwd() + "/songs_dir"
