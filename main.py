@@ -5,6 +5,7 @@ import urllib2
 import os
 import sys
 
+minimumsize = 10
 print "fetching msg from " + sys.argv[1] + "\n"
 url = re.sub("#/", "", sys.argv[1])
 r   = requests.get(url)
@@ -57,9 +58,19 @@ for value in mm:
     filename = "./" + songdir + "/"+songname+"-"+artistName+".flac"
     print filename + " is downloading now ......\n\n"
 
-    f = urllib2.urlopen(songlink)
-    with open(filename, "wb") as code:
-        code.write(f.read())
+    if not os.path.isfile(filename):
+        print "%s is downloading now ......\n\n" % filename
+        f = urllib.request.urlopen(songlink)
+        headers = requests.head(songlink).headers
+        size = int(headers['Content-Length']) / (1024 ** 2)
+        if size >= minimumsize:
+            with open(filename, "wb") as code:
+                code.write(f.read())
+        else:
+            print "the size of %s (%r Mb) is less than 10 Mb, skipping" % (filename, size)
+    else:
+        songname = os.path.basename(filename)
+        print "%s is already downloaded. Finding next song...\n\n" % songname
 
 print "\n================================================================"
 print "\nDownload finish!\nSongs' directory is " + os.getcwd() + "/songs_dir"
