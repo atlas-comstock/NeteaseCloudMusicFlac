@@ -31,7 +31,7 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if d is not None and 'data' not in d:
+    if d is not None and 'data' not in d or d['data'] == '':
         continue
     songid = d["data"]["song"][0]["songid"]
     print("find songid: %s" % songid)
