@@ -71,5 +71,5 @@ for value in mm:
     else:
         print "%s is already downloaded. Finding next song...\n\n" % songname
 
-print "\n================================================================"
-print "\nDownload finish!\nSongs' directory is " + os.getcwd() + "/songs_dir"
+print "\n================================================================\n"
+print "Download finish!\nSongs' directory is " + os.getcwd() + "/songs_dir"
