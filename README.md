@@ -39,11 +39,11 @@ python3下载使用此网站上的python3_main.py
 
 ### python2示例命令
 
-	$ python main.py http://music.163.com/#/playlist?id=145258012
+	$ python main.py 'http://music.163.com/#/playlist?id=145258012'
 
 ### python3示例命令
 
-	$ python3 python3_main.py http://music.163.com/#/playlist?id=145258012
+	$ python3 python3_main.py 'http://music.163.com/#/playlist?id=145258012'
 
 
 ### 如果告知缺乏module
