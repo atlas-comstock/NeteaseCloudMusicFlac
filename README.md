@@ -13,7 +13,7 @@
 于是我想做如此一个项目, 根据网易云音乐上面的歌单, 自动下载FLAC无损音乐到本地.
 
 ### 注意
-海外由于版权问题无法下载歌曲, 所以会导致此[issue](https://github.com/YongHaoWu/NeteaseCloudMusicFlac/issues/1), 无法正常使用. 需要返回中国才能使用此项目.
+海外由于版权问题无法下载歌曲, 所以会导致此[issue](https://github.com/YongHaoWu/NeteaseCloudMusicFlac/issues/1), 无法正常使用, 需要修改DNS配置, 里面有解决方法.
 
 ### 安装
 
