@@ -40,7 +40,7 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if d is not None and 'data' not in d or d['data'] == '':
+    if d is not None and 'data' not in d or d['data'] == '' or d['data']["songList"] == '':
         continue
     songlink = d["data"]["songList"][0]["songLink"]
     print "find songlink: "
