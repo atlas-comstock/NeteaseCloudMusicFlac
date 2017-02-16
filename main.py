@@ -21,6 +21,10 @@ else:
 res = r'<li><a .*?>(.*?)</a></li>'
 mm = re.findall(res, contents, re.S | re.M)
 
+songdir = "songs_dir"
+if not os.path.exists(songdir):
+    os.makedirs(songdir)
+
 for value in mm:
     url = 'http://sug.music.baidu.com/info/suggestion'
     payload = {'word': value, 'version': '2', 'from': '0'}
@@ -49,12 +53,12 @@ for value in mm:
         continue
     print songlink
 
-    songdir = "songs_dir"
-    if not os.path.exists(songdir):
-        os.makedirs(songdir)
-
     songname = d["data"]["songList"][0]["songName"]
+    songname = "".join(songname.split())
+
     artistName = d["data"]["songList"][0]["artistName"]
+    artistName = "".join(artistName.split())
+
     filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
 
     f = urllib2.urlopen(songlink)
