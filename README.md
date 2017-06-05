@@ -2,6 +2,7 @@
 
 #### [感谢](https://github.com/imfangli/baidu-music-downloader)为 NeteaseCloudMusicFlac 的开发付出过努力以及提出建议的每一个人！
 
+* [Elixir 实现](https://github.com/YongHaoWu/NeteaseCloudMusicFlacElixir)
 
 根据网易云音乐歌单, 下载对应无损FLAC歌曲到本地.
 
