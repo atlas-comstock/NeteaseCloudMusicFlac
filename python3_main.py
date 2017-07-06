@@ -5,10 +5,16 @@ import urllib.request
 import urllib.error
 import os
 import sys
-
+test = False
+test_url = r'http://music.163.com/#/playlist?id=88156914'
 minimumsize = 10
-print("fetching msg from %s \n" % sys.argv[1])
-url = re.sub("#/", "", sys.argv[1])
+if test:
+    url = r'http://music.163.com/#/playlist?id=88156914'
+else:
+    print("fetching msg from %s \n" % sys.argv[1])
+    url = re.sub("#/", "", sys.argv[1])
+url = url.replace('/#/','/')
+print(url)
 r = requests.get(url)
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'
@@ -19,19 +25,28 @@ if(mm):
 else:
     print('Can not fetch information form URL. Please make sure the URL is right.\n')
     os._exit(0)
-
-res = r'<li><a .*?>(.*?)</a></li>'
-mm = re.findall(res, contents, re.S | re.M)
-
-for value in mm:
+res = r'<textarea style="display:none;">(.*?)</textarea>'
+mm = re.search(res, r.text, re.S | re.M).group(1)
+try:
+    results = json.loads(mm)
+except:
+    print('解析json失败')
+not_found_list = []
+for value in results:
     url = 'http://sug.music.baidu.com/info/suggestion'
-    payload = {'word': value, 'version': '2', 'from': '0'}
-    print(value)
+    search_list = []
+    search_list.append(value['name'])
+    for artist in value['artists']:
+        search_list.append(artist['name'])
+    payload = {'word': '+'.join(search_list), 'version': '2', 'from': '0'}
+    print('开始查找，查找关键词为:',payload)
 
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
     if d is not None and 'data' not in d:
+        print('未找到此歌曲信息')
+        not_found_list.append(search_list[0])
         continue
     songid = d["data"]["song"][0]["songid"]
     print("find songid: %s" % songid)
@@ -47,6 +62,7 @@ for value in mm:
     print("find songlink: ")
     if(len(songlink) < 10):
         print("\tdo not have flac\n")
+        not_found_list.append(search_list[0])
         continue
     print(songlink)
 
@@ -71,9 +87,12 @@ for value in mm:
         else:
             print("the size of %s (%r Mb) is less than 10 Mb, skipping" %
                   (filename, size))
+            not_found_list.append(search_list[0])
     else:
         print("%s is already downloaded. Finding next song...\n\n" % songname)
 
 
 print("\n================================================================\n")
 print("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())
+print('未下载的歌曲如下\n')
+print(' '.join(not_found_list))
