@@ -55,11 +55,16 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     songname = "".join(songname.split())
+    for c in r'[\\/:*?\"<>|]':
+        songname = songname.replace(c,'')
 
     artistName = d["data"]["songList"][0]["artistName"]
     artistName = "".join(artistName.split())
+    for c in r'[\\/:*?\"<>|]':
+        artistName = artistName.replace(c,'')
 
     filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
+    
 
     f = urllib2.urlopen(songlink)
     headers = requests.head(songlink).headers
