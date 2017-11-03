@@ -64,11 +64,15 @@ for value in mm:
         artistName = artistName.replace(c,'')
 
     filename = "./" + songdir + "/" + songname + "-" + artistName + ".flac"
-    
+
 
     f = urllib2.urlopen(songlink)
+
     headers = requests.head(songlink).headers
-    size = int(headers['Content-Length']) / (1024 ** 2)
+    if 'Content-Length' in headers:
+        size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
+    else:
+        continue
     #Download unfinished Flacs again.
     if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize:
         print "%s is downloading now ......\n" % filename
