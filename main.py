@@ -8,7 +8,7 @@ import sys
 minimumsize = 10
 print "fetching msg from " + sys.argv[1] + "\n"
 url = re.sub("#/", "", sys.argv[1])
-r = requests.get(url)
+r = requests.get(url,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'
 mm = re.findall(res, contents, re.S | re.M)
