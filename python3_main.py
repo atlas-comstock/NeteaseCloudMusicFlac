@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re
 import requests
 import json
@@ -26,6 +27,7 @@ mm = re.findall(res, contents, re.S | re.M)
 for value in mm:
     url = 'http://sug.music.baidu.com/info/suggestion'
     payload = {'word': value, 'version': '2', 'from': '0'}
+    value = value.replace('\\xa0', ' ')# windows cmd 的编码问题
     print(value)
 
     r = requests.get(url, params=payload)
