@@ -58,6 +58,9 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
+    
+    songname = songname.replace('/', "%2F").replace('\"', "%22")
+    
     filename = ("%s/%s/%s-%s.flac" %
                 (CURRENT_PATH, songdir, songname, artistName))
 
