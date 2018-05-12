@@ -85,6 +85,8 @@ for value in song_names:
 
     songName = extract_song_info("songName")
     artistName = extract_song_info("artistName")
+    
+    songName = songname.replace('/', "%2F").replace('\"', "%22")
 
     filename = "./" + songdir + "/" + songName + "-" + artistName + ".flac"
 
