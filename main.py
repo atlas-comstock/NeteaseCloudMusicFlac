@@ -7,10 +7,9 @@ import os
 import sys
 
 def fetch_song_list(url):
-    r = requests.get(url,
-            headers={ 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36\
-                    (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'}
-            )
+    headers = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36\
+            (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'}
+    r = requests.get(url, headers)
     contents = r.text
     res = r'<ul class="f-hide">(.*?)</ul>'
     song_list = re.findall(res, contents, re.S | re.M)
@@ -84,9 +83,9 @@ for value in song_names:
     print "songlink: " + songlink
 
     songName = extract_song_info("songName")
+    songName = songName.replace('/', "%2F").replace('\"', "%22")
+
     artistName = extract_song_info("artistName")
-    
-    songName = songname.replace('/', "%2F").replace('\"', "%22")
 
     filename = "./" + songdir + "/" + songName + "-" + artistName + ".flac"
 
