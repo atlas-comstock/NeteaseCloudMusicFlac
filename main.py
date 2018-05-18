@@ -7,9 +7,9 @@ import os
 import sys
 
 def fetch_song_list(url):
-    headers = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36\
+    header_value = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36\
             (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'}
-    r = requests.get(url, headers)
+    r = requests.get(url, headers=header_value)
     contents = r.text
     res = r'<ul class="f-hide">(.*?)</ul>'
     song_list = re.findall(res, contents, re.S | re.M)
@@ -64,8 +64,8 @@ def extract_song_info(key):
 minimumsize = 10
 songdir = ensure_download_dir_exist()
 
-print "fetching Netease song list from " + sys.argv[1] + "\n"
 url = re.sub("#/", "", sys.argv[1]).strip()
+print "fetching Netease song list from " + url + "\n"
 song_names = fetch_song_list(url)
 for value in song_names:
     songid = get_songid(value)
@@ -95,6 +95,7 @@ for value in song_names:
     if 'Content-Length' in headers:
         size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
     else:
+        print "\tdo not have Content-Length header\n"
         continue
     #Download unfinished Flacs again.
     if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize:
