@@ -6,7 +6,7 @@ import urllib.request
 import urllib.error
 import os
 import sys
-
+import unicodedata
 minimumsize = 10
 print("fetching msg from %s \n" % sys.argv[1])
 url = re.sub("#/", "", sys.argv[1]).strip()
@@ -58,8 +58,12 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
-    
+    #trans chinese punctuation to english
+    songname = unicodedata.normalize('NFKC', songname)
     songname = songname.replace('/', "%2F").replace('\"', "%22")
+	#Replace the reserved characters in the song name. according the RFC 1738
+    songname = songname.replace('$', "%24").replace('&', "%26").replace('+', "%2B").replace(',', "%2C").replace(':', "%3A").replace(';', "%3B").replace('=',"%3D").replace('?', "%3F").replace('@', "%40")
+	
     
     filename = ("%s/%s/%s-%s.flac" %
                 (CURRENT_PATH, songdir, songname, artistName))
