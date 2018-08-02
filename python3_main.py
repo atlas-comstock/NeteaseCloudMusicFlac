@@ -61,8 +61,8 @@ for value in mm:
     #trans chinese punctuation to english
     songname = unicodedata.normalize('NFKC', songname)
     songname = songname.replace('/', "%2F").replace('\"', "%22")
-	#Replace the reserved characters in the song name. according the RFC 1738
-    songname = songname.replace('$', "%24").replace('&', "%26").replace('+', "%2B").replace(',', "%2C").replace(':', "%3A").replace(';', "%3B").replace('=',"%3D").replace('?', "%3F").replace('@', "%40")
+	#Replace the reserved characters in the song name to '-'
+    songname = songname.replace('$', "-").replace('&', "-").replace('+', "-").replace(',', "-").replace(':', "-").replace(';', "-").replace('=',"-").replace('?', "-").replace('@', "-")
 	
     
     filename = ("%s/%s/%s-%s.flac" %
