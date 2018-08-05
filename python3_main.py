@@ -7,15 +7,17 @@ import urllib.error
 import os
 import sys
 import unicodedata
+
 minimumsize = 10
 print("fetching msg from %s \n" % sys.argv[1])
 url = re.sub("#/", "", sys.argv[1]).strip()
-r = requests.get(url,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
+r = requests.get(url, headers={
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
 contents = r.text
 res = r'<ul class="f-hide">(.*?)</ul>'
 mm = re.findall(res, contents, re.S | re.M)
 CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
-if(mm):
+if (mm):
     contents = mm[0]
 else:
     print('Can not fetch information form URL. Please make sure the URL is right.\n')
@@ -27,7 +29,7 @@ mm = re.findall(res, contents, re.S | re.M)
 for value in mm:
     url = 'http://sug.music.baidu.com/info/suggestion'
     payload = {'word': value, 'version': '2', 'from': '0'}
-    value = value.replace('\\xa0', ' ')# windows cmd 的编码问题
+    value = value.replace('\\xa0', ' ')  # windows cmd 的编码问题
     print(value)
 
     r = requests.get(url, params=payload)
@@ -43,11 +45,11 @@ for value in mm:
     r = requests.get(url, params=payload)
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
-    if('data' not in d) or d['data'] == '':
+    if ('data' not in d) or d['data'] == '':
         continue
     songlink = d["data"]["songList"][0]["songLink"]
     print("find songlink: ")
-    if(len(songlink) < 10):
+    if (len(songlink) < 10):
         print("\tdo not have flac\n")
         continue
     print(songlink)
@@ -58,13 +60,14 @@ for value in mm:
 
     songname = d["data"]["songList"][0]["songName"]
     artistName = d["data"]["songList"][0]["artistName"]
-    #trans chinese punctuation to english
+    # trans chinese punctuation to english
     songname = unicodedata.normalize('NFKC', songname)
     songname = songname.replace('/', "%2F").replace('\"', "%22")
-	#Replace the reserved characters in the song name to '-'
-    songname = songname.replace('$', "-").replace('&', "-").replace('+', "-").replace(',', "-").replace(':', "-").replace(';', "-").replace('=',"-").replace('?', "-").replace('@', "-")
-	
-    
+    # Replace the reserved characters in the song name to '-'
+    songname = songname.replace('$', "-").replace('&', "-").replace('+', "-").replace(',', "-").replace(':',
+                                                                                                        "-").replace(
+        ';', "-").replace('=', "-").replace('?', "-").replace('@', "-")
+
     filename = ("%s/%s/%s-%s.flac" %
                 (CURRENT_PATH, songdir, songname, artistName))
 
@@ -75,8 +78,8 @@ for value in mm:
     else:
         continue
 
-    #Download unfinished Flacs again.
-    if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize: #Delete useless flacs
+    # Download unfinished Flacs again.
+    if not os.path.isfile(filename) or os.path.getsize(filename) < minimumsize:  # Delete useless flacs
         print("%s is downloading now ......\n\n" % songname)
         if size >= minimumsize:
             with open(filename, "wb") as code:
@@ -86,7 +89,6 @@ for value in mm:
                   (filename, size))
     else:
         print("%s is already downloaded. Finding next song...\n\n" % songname)
-
 
 print("\n================================================================\n")
 print("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())
