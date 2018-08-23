@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import re
 
@@ -37,86 +38,97 @@ def set_logger():
 
 logger = set_logger()
 
-logger.info("fetching msg from %s \n" % sys.argv[1])
-url = re.sub("#/", "", sys.argv[1]).strip()
-r = requests.get(url, headers={
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
-contents = r.text
-res = r'<ul class="f-hide">(.*?)</ul>'
-mm = re.findall(res, contents, re.S | re.M)
-CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
-if (mm):
-    contents = mm[0]
-else:
-    logger.error('Can not fetch information form URL. Please make sure the URL is right.\n')
-    os._exit(0)
-
-res = r'<li><a .*?>(.*?)</a></li>'
-mm = re.findall(res, contents, re.S | re.M)
-
-for value in mm:
-    url = 'http://sug.music.baidu.com/info/suggestion'
-    payload = {'word': value, 'version': '2', 'from': '0'}
-    value = value.replace('\\xa0', ' ')  # windows cmd 的编码问题
-    logger.info(value)
-
-    r = requests.get(url, params=payload)
+def fetch_song_list(url):
+    r = requests.get(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
     contents = r.text
-    d = json.loads(contents, encoding="utf-8")
-    if d is not None and 'data' not in d:
-        continue
-    songid = d["data"]["song"][0]["songid"]
-    logger.info("find songid: %s" % songid)
+    res = r'<ul class="f-hide">(.*?)</ul>'
+    mm = re.findall(res, contents, re.S | re.M)
+    if (mm):
+        contents = mm[0]
+    else:
+        logger.error('Can not fetch information form URL. Please make sure the URL is right.\n')
+        os._exit(0)
 
-    url = "http://music.baidu.com/data/music/fmlink"
-    payload = {'songIds': songid, 'type': 'flac'}
-    r = requests.get(url, params=payload)
-    contents = r.text
-    d = json.loads(contents, encoding="utf-8")
-    if ('data' not in d) or d['data'] == '':
-        continue
-    songlink = d["data"]["songList"][0]["songLink"]
-    logger.info("find songlink: ")
-    if (len(songlink) < 10):
-        logger.warning("\tdo not have flac\n")
-        continue
-    logger.info(songlink)
+    res = r'<li><a .*?>(.*?)</a></li>'
+    song_names = re.findall(res, contents, re.S | re.M)
+    return song_names
 
-    songdir = "songs_dir"
-    if not os.path.exists(songdir):
-        os.makedirs(songdir)
 
-    songname = d["data"]["songList"][0]["songName"]
-    artistName = d["data"]["songList"][0]["artistName"]
+def validate_file_name(songname):
     # trans chinese punctuation to english
     songname = unicodedata.normalize('NFKC', songname)
     songname = songname.replace('/', "%2F").replace('\"', "%22")
+    rstr = r"[\/\\\:\*\?\"\<\>\|\+\-:;',=.?@]"
     # Replace the reserved characters in the song name to '-'
-    songname = songname.replace('$', "-").replace('&', "-").replace('+', "-").replace(',', "-").replace(':',
-                                                                                                        "-").replace(
-        ';', "-").replace('=', "-").replace('?', "-").replace('@', "-")
+    rstr = r"[\/\\\:\*\?\"\<\>\|\+\-:;=?@]"  # '/ \ : * ? " < > |'
+    return re.sub(rstr, "_", songname)
 
-    filename = ("%s/%s/%s-%s.flac" %
-                (CURRENT_PATH, songdir, songname, artistName))
+def main():
+    url = re.sub("#/", "", sys.argv[1]).strip()
+    print("fetching Netease song list from " + url + "\n")
+    song_names = fetch_song_list(url)
+    for value in song_names:
+        url = 'http://sug.music.baidu.com/info/suggestion'
+        payload = {'word': value, 'version': '2', 'from': '0'}
+        value = value.replace('\\xa0', ' ')  # windows cmd 的编码问题
+        logger.info(value)
 
-    f = urllib.request.urlopen(songlink)
-    headers = requests.head(songlink).headers
-    if 'Content-Length' in headers:
-        size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
-    else:
-        continue
+        r = requests.get(url, params=payload)
+        contents = r.text
+        d = json.loads(contents, encoding="utf-8")
+        if d is not None and 'data' not in d:
+            continue
+        songid = d["data"]["song"][0]["songid"]
+        logger.info("find songid: %s" % songid)
 
-    # Download unfinished Flacs again.
-    if not os.path.isfile(filename) or os.path.getsize(filename) < MINIMUM_SIZE:  # Delete useless flacs
-        logger.info("%s is downloading now ......\n\n" % songname)
-        if size >= MINIMUM_SIZE:
-            with open(filename, "wb") as code:
-                code.write(f.read())
+        url = "http://music.baidu.com/data/music/fmlink"
+        payload = {'songIds': songid, 'type': 'flac'}
+        r = requests.get(url, params=payload)
+        contents = r.text
+        d = json.loads(contents, encoding="utf-8")
+        if ('data' not in d) or d['data'] == '':
+            continue
+        songlink = d["data"]["songList"][0]["songLink"]
+        logger.info("find songlink: ")
+        if (len(songlink) < 10):
+            logger.warning("\tdo not have flac\n")
+            continue
+        logger.info(songlink)
+
+        songdir = "songs_dir"
+        if not os.path.exists(songdir):
+            os.makedirs(songdir)
+
+        songname = d["data"]["songList"][0]["songName"]
+        artistName = d["data"]["songList"][0]["artistName"]
+        songname = validate_file_name(songname)
+
+        CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
+        filename = ("%s/%s/%s-%s.flac" %
+                    (CURRENT_PATH, songdir, songname, artistName))
+
+        f = urllib.request.urlopen(songlink)
+        headers = requests.head(songlink).headers
+        if 'Content-Length' in headers:
+            size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
         else:
-            logger.warning("the size of %s (%r Mb) is less than 10 Mb, skipping" %
-                  (filename, size))
-    else:
-        logger.info("%s is already downloaded. Finding next song...\n\n" % songname)
+            continue
 
-logger.info("\n================================================================\n")
-logger.info("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())
+        # Download unfinished Flacs again.
+        if not os.path.isfile(filename) or os.path.getsize(filename) < MINIMUM_SIZE:  # Delete useless flacs
+            logger.info("%s is downloading now ......\n\n" % songname)
+            if size >= MINIMUM_SIZE:
+                with open(filename, "wb") as code:
+                    code.write(f.read())
+            else:
+                logger.warning("the size of %s (%r Mb) is less than 10 Mb, skipping" %
+                      (filename, size))
+        else:
+            logger.info("%s is already downloaded. Finding next song...\n\n" % songname)
+
+    logger.info("\n================================================================\n")
+    logger.info("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())
+
+if __name__ == "__main__":
+    main()
