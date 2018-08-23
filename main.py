@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import re
 
@@ -38,11 +38,10 @@ def set_logger():
 logger = set_logger()
 
 def fetch_song_list(url):
-    print("fetching Netease song list from " + url + "\n")
+    logger.info("fetching Netease song list from " + url + "\n")
     r = requests.get(url, headers={
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
     contents = r.text
-    print(contents)
     res = r'<ul class="f-hide">(.*?)</ul>'
     mm = re.findall(res, contents, re.S | re.M)
     if (mm):
@@ -117,6 +116,10 @@ def download_song(d, songlink):
        logger.info("%s is already downloaded. Finding next song...\n\n" % songname)
 
 def main():
+    if len(sys.argv) != 2:
+         print("请在 python3 后加上 你要下载的网易云音乐的歌单的 url\n")
+         print("示例: python3 main.py 'http://music.163.com/#/playlist?id=145258012'\n")
+         exit()
     url = re.sub("#/", "", sys.argv[1]).strip()
     song_names = fetch_song_list(url)
     for value in song_names:
@@ -137,7 +140,7 @@ def main():
 
         if not os.path.exists(DOWNLOAD_DIR):
             os.makedirs(DOWNLOAD_DIR)
-#        download_song(d, songlink)
+        download_song(d, songlink)
 
     logger.info("\n================================================================\n")
     logger.info("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())

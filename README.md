@@ -21,12 +21,11 @@
 
 #### 安装Python
 [根据此网站教程安装Python](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001374738150500472fd5785c194ebea336061163a8a974000)
+ 注意安装 python3
 
-#### 下载main.py或者python3_main.py
+#### 下载main.py
 
-python2下载使用此网站上的main.py
-
-python3下载使用此网站上的python3_main.py
+强制使用 python3, 从我做起
 
 ### 获取歌单
 到[网易云音乐网页版](http://music.163.com/#)找出想要下载无损的歌单, 如下图
@@ -39,20 +38,13 @@ python3下载使用此网站上的python3_main.py
 
 	$ python main.py 歌单地址(如上图便是: http://music.163.com/#/playlist?id=145258012)
 
-### python2示例命令
-
-	$ python main.py 'http://music.163.com/#/playlist?id=145258012'
-
 ### python3示例命令
 
-	$ python3 python3_main.py 'http://music.163.com/#/playlist?id=145258012'
+	$ python3 main.py 'http://music.163.com/#/playlist?id=145258012'
 
 
 ### 如果告知缺乏module
 下载对应的模块(module), 网上搜索如何安装python模块.
-
-###### python2
-	pip install requests
 
 ##### python3
 	pip3 install requests
