@@ -10,6 +10,8 @@ import urllib.error
 import os
 import sys
 import unicodedata
+import time
+from multiprocessing.dummy import Pool
 
 MINIMUM_SIZE = 10
 DOWNLOAD_DIR = "songs_dir"
@@ -109,6 +111,7 @@ def download_song(d, songlink):
        if size >= MINIMUM_SIZE:
            with open(filename, "wb") as code:
                code.write(f.read())
+           logger.info("%s finished downloading ......\n\n" % songname)
        else:
            logger.warning("the size of %s (%r Mb) is less than 10 Mb, skipping" %
                  (filename, size))
@@ -122,6 +125,7 @@ def main():
          exit()
     url = re.sub("#/", "", sys.argv[1]).strip()
     song_names = fetch_song_list(url)
+    p = Pool()
     for value in song_names:
         songid = get_songid(value)
         if songid == "":
@@ -140,10 +144,18 @@ def main():
 
         if not os.path.exists(DOWNLOAD_DIR):
             os.makedirs(DOWNLOAD_DIR)
-        download_song(d, songlink)
+        # download_song(d, songlink)
+        p.apply_async(download_song, args=(d, songlink))
+    logger.info("\n================================================================\n")
+    logger.info('Waiting for all download subprocesses done...')
+    p.close()
+    p.join()
 
     logger.info("\n================================================================\n")
     logger.info("Download finish!\nSongs' directory is %s/songs_dir" % os.getcwd())
 
 if __name__ == "__main__":
+    start = time.time()
     main()
+    end = time.time()
+    logger.info("cost %s s", str(end - start))
