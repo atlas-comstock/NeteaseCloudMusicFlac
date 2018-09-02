@@ -95,7 +95,7 @@ def download_song(d, songlink):
    filename = ("%s/%s/%s-%s.flac" %
                (CURRENT_PATH, DOWNLOAD_DIR, songname, artistName))
 
-   f = urllib.request.urlopen(songlink)
+   f = urllib.request.urlopen(songlink, timeout=10)
    headers = requests.head(songlink).headers
    if 'Content-Length' in headers:
        size = round(int(headers['Content-Length']) / (1024 ** 2), 2)
