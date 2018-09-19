@@ -49,6 +49,9 @@
 ##### python3
 	pip3 install requests
 
+如运行中遇到错误, 可以运行 `pip install --upgrade requests`
+(其中一已知错误是request 2.7.0 以下的版本在多线程下载时出现错误)
+
 ### TODO list
 1. 目前只是匹配歌曲名字, 最好加上匹配歌手名
 2. 歌曲匹配率不高, 可以考虑再到其他网站抓
