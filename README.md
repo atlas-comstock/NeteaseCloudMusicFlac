@@ -30,7 +30,7 @@
 ### 获取歌单
 到[网易云音乐网页版](http://music.163.com/#)找出想要下载无损的歌单, 如下图
 
-![NeteaseCloudMusicFlac](http://av.jejeso.com/pic.png)
+![NeteaseCloudMusicFlac](https://diycode.b0.upaiyun.com/photo/2018/6d49ed4feb186706a850c0a2be25befe.png)
 
 后进入歌单, 地址栏地址便是歌单地址.
 
@@ -38,7 +38,7 @@
 
 	$ python main.py 歌单地址(如上图便是: http://music.163.com/#/playlist?id=145258012)
 
-### python3示例命令
+### python3示例命令(注意 windows 可能要把下面的单引号去掉)
 
 	$ python3 main.py 'http://music.163.com/#/playlist?id=145258012'
 
