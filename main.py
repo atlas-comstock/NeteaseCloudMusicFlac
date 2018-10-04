@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import re
 
+import re
 import logging
 import requests
 import json
@@ -88,7 +88,7 @@ def get_song_info(songid):
     contents = r.text
     return json.loads(contents, encoding="utf-8")
 
-def download_song(d, songlink):
+def download_song(d, songlink, is_skip_mp3_songs):
    songname = d["data"]["songList"][0]["songName"]
    songname = validate_file_name(songname)
    artistName = d["data"]["songList"][0]["artistName"]
@@ -106,9 +106,9 @@ def download_song(d, songlink):
 
    # Download unfinished Flacs again.
    # Delete useless flacs
-   if not os.path.isfile(filename) or os.path.getsize(filename) < MINIMUM_SIZE:
+   if not os.path.isfile(filename) or (is_skip_mp3_songs and os.path.getsize(filename) < MINIMUM_SIZE):
        logger.info("%s is downloading now ......\n\n" % songname)
-       if size >= MINIMUM_SIZE:
+       if (not is_skip_mp3_songs) or size >= MINIMUM_SIZE:
            with open(filename, "wb") as code:
                code.write(f.read())
            logger.info("%s finished downloading ......\n\n" % songname)
@@ -119,10 +119,14 @@ def download_song(d, songlink):
        logger.info("%s is already downloaded. Finding next song...\n\n" % songname)
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
          print("请在 python3 后加上 你要下载的网易云音乐的歌单的 url\n")
          print("示例: python3 main.py 'http://music.163.com/#/playlist?id=145258012'\n")
          exit()
+    is_skip_mp3_songs = True
+    if len(sys.argv) > 2:
+         print("将下载所有歌曲, 包括 MP3 格式 \n")
+         is_skip_mp3_songs= False
     url = re.sub("#/", "", sys.argv[1]).strip()
     song_names = fetch_song_list(url)
     p = Pool()
@@ -145,7 +149,7 @@ def main():
         if not os.path.exists(DOWNLOAD_DIR):
             os.makedirs(DOWNLOAD_DIR)
         # download_song(d, songlink)
-        p.apply_async(download_song, args=(d, songlink))
+        p.apply_async(download_song, args=(d, songlink, is_skip_mp3_songs))
     logger.info("\n================================================================\n")
     logger.info('Waiting for all download subprocesses done...')
     p.close()
