@@ -21,11 +21,11 @@
 
 #### 安装Python
 [根据此网站教程安装Python](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001374738150500472fd5785c194ebea336061163a8a974000)
- 注意安装 python3
+注意安装的版本是 python3
+强制使用 python3, 从我做起
 
 #### 下载main.py
-
-强制使用 python3, 从我做起
+可以使用此链接 https://codeload.github.com/YongHaoWu/NeteaseCloudMusicFlac/zip/master
 
 ### 获取歌单
 到[网易云音乐网页版](http://music.163.com/#)找出想要下载无损的歌单, 如下图
@@ -52,8 +52,8 @@
 ##### python3
 	pip3 install requests
 
-如运行中遇到错误, 可以运行 `pip install --upgrade requests`
-(其中一已知错误是request 2.7.0 以下的版本在多线程下载时出现错误)
+如运行中遇到错误, 可以运行 `pip3 install --upgrade requests`
+(其中一已知错误是request 旧版本在多线程下载时出现错误)
 
 ### TODO list
 1. 目前只是匹配歌曲名字, 最好加上匹配歌手名
