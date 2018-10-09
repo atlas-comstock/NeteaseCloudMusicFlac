@@ -21,7 +21,8 @@
 
 #### 安装Python
 [根据此网站教程安装Python](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001374738150500472fd5785c194ebea336061163a8a974000)
-注意安装的版本是 python3
+注意安装的版本是 **python3**
+
 强制使用 python3, 从我做起
 
 #### 下载main.py
