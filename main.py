@@ -133,7 +133,7 @@ def main():
     for value in song_names:
         songid = get_songid(value)
         if songid == "":
-            logger.info("can not find %s 's songid %s'. Finding next song...\n\n" , %(value, songid))
+            logger.info("can not find %s 's songid %s'. Finding next song...\n\n" % (value, songid))
             continue
 
         d = get_song_info(songid)
