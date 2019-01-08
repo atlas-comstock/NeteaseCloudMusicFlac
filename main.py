@@ -3,6 +3,7 @@
 
 import re
 import logging
+import argparse
 import requests
 import json
 import urllib.request
@@ -19,6 +20,20 @@ CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
 LOG_LEVEL = logging.INFO
 LOG_FILE = 'download.log' or False
 LOG_FORMAT = '%(asctime)s %(filename)s:%(lineno)d [%(levelname)s] %(message)s'
+
+def get_args():
+  parser = argparse.ArgumentParser(
+    usage = "python main.py 歌单地址",
+    description="根据网易云音乐歌单, 下载对应无损FLAC歌曲到本地."
+    )
+  parser.add_argument('playlist_url', type=str, help="网易云音乐歌单url")
+  parser.add_argument('-m', '--mp3', action="store_false", dest='mp3_option', help="下载mp3资源")
+  parse_result = parser.parse_args()
+  url = parse_result.playlist_url
+  mp3_option = parse_result.mp3_option
+
+  return url, mp3_option
+
 def set_logger():
     logger = logging.getLogger()
     logger.setLevel(LOG_LEVEL)
@@ -41,19 +56,16 @@ logger = set_logger()
 
 def fetch_song_list(url):
     logger.info("fetching Netease song list from " + url + "\n")
+    url = url.replace("/#", "").strip()
     r = requests.get(url, headers={
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'})
     contents = r.text
-    res = r'<ul class="f-hide">(.*?)</ul>'
-    mm = re.findall(res, contents, re.S | re.M)
-    if (mm):
-        contents = mm[0]
-    else:
+    pattern = r'<li><a href="/song\?id=\d+">(.+?)</a></li>'
+    song_names = re.findall(pattern, contents)
+    if not song_names:
         logger.error('Can not fetch information form URL. Please make sure the URL is right.\n')
         os._exit(0)
 
-    res = r'<li><a .*?>(.*?)</a></li>'
-    song_names = re.findall(res, contents, re.S | re.M)
     return song_names
 
 def validate_file_name(songname):
@@ -119,15 +131,9 @@ def download_song(d, songlink, is_skip_mp3_songs):
        logger.info("%s is already downloaded. Finding next song...\n\n" % songname)
 
 def main():
-    if len(sys.argv) < 2:
-         print("请在 python3 后加上 你要下载的网易云音乐的歌单的 url\n")
-         print("示例: python3 main.py 'http://music.163.com/#/playlist?id=145258012'\n")
-         exit()
-    is_skip_mp3_songs = True
-    if len(sys.argv) > 2:
-         print("将下载所有歌曲, 包括 MP3 格式 \n")
-         is_skip_mp3_songs= False
-    url = re.sub("#/", "", sys.argv[1]).strip()
+    url, is_skip_mp3_songs = get_args()
+    if not is_skip_mp3_songs:
+      logger.info("将下载所有歌曲, 包括 MP3 格式.")
     song_names = fetch_song_list(url)
     p = Pool()
     for value in song_names:
