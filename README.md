@@ -45,7 +45,7 @@
 
 ### 下载所有歌曲, 包括 MP3 在内
 
-	$ python3 main.py 'http://music.163.com/#/playlist?id=145258012' mp3
+	$ python3 main.py 'http://music.163.com/#/playlist?id=145258012' --mp3
 
 ### 如果告知缺乏module
 下载对应的模块(module), 网上搜索如何安装python模块.
