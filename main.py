@@ -12,7 +12,6 @@ import os
 import sys
 import unicodedata
 import time
-import socket
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
 
@@ -101,8 +100,8 @@ def get_songid(value):
     contents = r.text
     d = json.loads(contents, encoding="utf-8")
     if not d or "errno" in d:
-        return ""
         logger.info("未查找到歌曲 %s 对应的ID" % value)
+        return ""
     else:
         songid = d["data"]["song"][0]["songid"]
         logger.info("歌曲 %s 对应的ID为: %s" % (value, songid))
