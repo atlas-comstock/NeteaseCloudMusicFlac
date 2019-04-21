@@ -89,25 +89,27 @@ def validate_file_name(songname):
 
 
 def get_songid(value):
-    BAIDU_SUGGESTION_API = 'http://sug.music.baidu.com/info/suggestion'
-    payload = {'word': value, 'version': '2', 'from': '0'}
-    value = value.replace('\\xa0', ' ')  # windows cmd 的编码问题
+    BAIDU_SUGGESTION_API = 'http://musicapi.qianqian.com/v1/restserver/ting'
+    payload = {
+        "query": value,
+        "method": "baidu.ting.search.common",
+        "format": "json",
+        "page_no": 1,
+        "page_size": 5,
+    }
+    # value = value.replace('\\xa0', ' ')  # windows cmd 的编码问题
 
     r = requests.get(BAIDU_SUGGESTION_API, params=payload, headers=HEADERS)
-    if r.status_code != 200 or r.headers.get("Content-Type") != 'application/json;charset=UTF-8':
+    try:
+        contents = r.json()
+        songid = contents['song_list'][0]['song_id']
+    except:
         logger.info("未查找到歌曲 %s 对应的ID" % value)
-        return ""
-    contents = r.text
-    d = json.loads(contents, encoding="utf-8")
-    if not d or "errno" in d:
-        logger.info("未查找到歌曲 %s 对应的ID" % value)
-        return ""
-    else:
-        songid = d["data"]["song"][0]["songid"]
-        logger.info("歌曲 %s 对应的ID为: %s" % (value, songid))
+        songid = ""
+    finally:
         return songid
-
-
+    # if r.status_code != 200 or r.headers.get("Content-Type") != 'application/json':
+    
 def get_song_info(songid):
     BAIDU_MUSIC_API = "http://music.baidu.com/data/music/fmlink"
     payload = {'songIds': songid, 'type': 'flac'}
