@@ -1,5 +1,10 @@
 # NeteaseCloudMusicFlac
 
+#### 推荐使用Tidal
+介绍请看, https://sspai.com/post/56216 , 本人用了觉得很赞, 音质吊打其他音乐软件, 比自己管理无损音乐要舒服多了.
+可以使用我的推荐码: http://tidal.refr.cc/F5GX6FV
+有60天试用期.
+
 #### [感谢](https://github.com/imfangli/baidu-music-downloader)为 NeteaseCloudMusicFlac 的开发付出过努力以及提出建议的每一个人！
 
 * [Elixir 实现](https://github.com/YongHaoWu/NeteaseCloudMusicFlacElixir)
