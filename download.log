@@ -1,0 +1,702 @@
+2019-09-01 22:43:39 main.py:73 [INFO] 歌单: dptdpt喜欢的音乐
+
+2019-09-01 22:43:39 main.py:180 [INFO] 歌单中包含的歌曲有: ['走马', '离人愁', '再见了西安城', '多想在平庸的生活拥抱你', '当真', '流浪记 (Live)', 'Victory', 'Malibu Nights', 'Never Be Alone / Hey There Delilah (Live At Madison Square Garden/ 2016 / Medley)', 'Sign of the Times', '黑武士', 'River', 'Supermarket Flowers', "Let's Fall in Love for the Night", "Won't Go Home Without You", 'Click Clack Away', 'Wake (Live)', 'Cool Again', '越来越不懂', '等你等到我心痛(Live)', '黎明前的黑暗（完整版）', '默', 'Dusk Till Dawn', '天亮以前说再见', '太多 (cover：陈冠蒲)', '男孩', '侧脸', '浮白', '出山', 'Hall of Fame', 'Sleepyhead', 'Closer', "Can't Take My Eyes Off You", 'Cruisin', "What I've Done", 'What Makes You Beautiful', 'Viva La Vida', 'Waiting for Love', 'TiK ToK', 'As Long As You Love Me', 'Air', "There's Nothing Holdin' Me Back", 'Try', "CAN'T STOP the FEELING!", 'Straight Through My Heart(Main Version)', 'Love Yourself', '贝加尔湖畔', 'Swear It Again (Radio Edit)', 'Fire', 'Empire State Of Mind', 'Talking To The Moon', "Stronger (What Doesn't Kill You)", 'Timber', 'Shooting Stars', 'Thinking Out Loud', 'Nothing On You (solo live)', 'The Sound of Silence', 'Relax, Take It Easy', 'Payphone', 'Trouble Is A Friend (Album Version)', 'Maps', 'Space Bound', '平凡之路 (Live版)', 'Reminding Me', 'Whistle', 'See You Again', 'We Are Young', 'You Raise Me Up', "We Don't Talk Anymore", 'Uptown Funk', '演员 (Live)', '真的爱妳', '钟无艳', '相依为命', '我等到花儿也谢了', 'New Thang', 'Not Afraid', 'Nevada (feat. Cozi Zuehlsdorff)', "Please Don't Go (A Cappella)", 'Numb', 'Lucky Strike', 'Love Me Like You Do', 'Love to Be Loved by You', 'Mockingbird', 'Me and My Broken Heart', 'My Love', 'Let Me Love You', 'Let Me Love You', 'Let Her Go (Blues)', 'Lights', '奇妙能力歌', 'Light', 'Lighters', 'Just the Way You Are', '南山南', "Just can't get Enough", 'Brighter', '海阔天空', '一半', '独家记忆', 'I Feel So Close To The Sweet Hall Of Fame', "Happy (Gru's Theme from Despicable Me 2)", 'Five Hours', 'Wrecking Ball', "Don't Let Me Down", 'Wonderful U (Demo Version)', 'Die Young', 'Fireflies', 'Faded', 'Demons', 'Wicked Wonderland', "Where'd You Go", 'Dead and Gone', '处处吻', '你瞒我瞒', 'That Girl', '写给黄淮（demo）', '爱是永恒', '月半小夜曲', '七友', '戒烟', 'Catch My Breath', '你给我听好', 'Listen', 'Yoü and I', "I'm In Here", '离开以后(Live)', 'Sing Me to Sleep', 'Stranger Things (Alan Walker Remix)', '光', '只要平凡', 'Legends Never Die (Alan Walker Remix)', '易燃易爆炸', 'Darkside', 'Water Under The Bridge', 'Seve', 'The Story Never Ends (Piano Version)', '爱笑的眼睛', '长镜头 (Live)', '喜剧之王', '可惜没如果', '光年之外', '爸爸妈妈', '修炼爱情', '醉赤壁', '学不会', '不为谁而作的歌', '那些你很冒险的梦', '作曲家', '阴天快乐', '前所未见', '爱得太迟', '一百万个可能', 'PLANET', '笑忘书 (Live)', '风的季节', 'Solo Dance', '红昭愿', '过客', '说散就散', 'Hero', '体面', 'Gotta Have You', '这个年纪', '最美的期待', '走在冷风中', 'GQ', '一如年少模样', 'Sound of Silence', '我从崖边跌落', '儿时', '不露声色', '理想', 'Fall', '往后余生', '可能否', '你就不要想起我', '起风了', '广东爱情故事', 'Pink Champagne', "Turnin'", 'Just Give Me A Reason', 'Hymn For The Weekend', 'Beautiful World', 'King', '逝年', 'It Is Well (Live)', 'Imagination', 'Attention', 'Havana', '成都', 'Light', 'Psycho (Pt. 2)', 'Rumors', 'Secrets', 'Ship In The Sand', 'Wicked Wonderland (Radio Edit)', '追光者', '理想三旬', '伟大的渺小', 'My Block (Nitty Remix)', '9 Crimes', '...Ready for It?', "Where'd You Go (Remix)", 'Titanium', '旧情绵绵(Live)', '送别', 'Photograph', 'You were my everything', "You Won't Let Me", "I Don't Wanna Live Forever", 'Send My Love (To Your New Lover)', 'Million Years Ago', 'Set Fire to the Rain', 'The Lovers', 'Soldier', 'The Ocean', 'The Spectre', 'Stitches', 'Lights', '被驯服的象', 'Jocelin', '小半', 'Born to Do', 'Summertrain', 'Here With You', 'Love You Like a Love Song', 'Glad You Came', 'Treasure', 'Just Like Fire', 'Something Just Like This', 'This Is What You Came For', 'To Vals Tou Gamou (Remastered)', 'Battle Symphony', "Please Don't Go", 'Right Now (Na Na Na)', '刚刚好', 'Lone Ranger', 'Shape of You', 'I Am You', 'Legacy', '你最珍贵', '忘记你我做不到', 'Starboy', '告白气球', 'Color Blind', 'You’re Not Alone', '南方姑娘', '红色高跟鞋', 'Nothing On You', 'Dream It Possible', '山丘 （Cover 李宗盛）', '七月上', '没离开过 (Live)', '泡沫', '她说', 'Closer', 'Animals', 'Love Yourself (HOPE-T & Relay Remix)', 'Hello', '夜空中最亮的星', 'Someone Like You', 'Make You Feel My Love', 'Stan', 'Lose Yourself (Markino Faded Remix)', '偏爱', '你把我灌醉', 'What About Now', 'I Gotta Feeling (Original)', 'Diamonds', 'If I Were A Boy (Main)', '如果.爱', '李香兰', '饿狼传说', '慢慢', '她来听我的演唱会', '我真的受伤了', '你的背包', '遥远的她', 'The Phoenix', 'IF YOU', '匆匆那年', 'Unstoppable', '你还要我怎样', 'Try', '7 Years', '丑八怪', '绅士', '没那么简单', '红玫瑰', '模特', 'Booty Music', 'Innocence', 'We Are The World (Demo)', '我的天空', 'Tell Me Why', 'Satellites', 'The Nights', '不要说话', '好久不见', 'You Are My Everything', 'Because of You', 'When I Was Your Man', '演员', 'My House', 'Faded (Instrumental)', 'When We Were Young', 'FourFiveSeconds', 'What Are Words', '心如刀割', '如果这都不算爱', 'New Divide', 'Sugar']
+2019-09-01 22:43:39 main.py:110 [INFO] 未查找到歌曲 流浪记 (Live) 对应的ID
+2019-09-01 22:43:40 main.py:110 [INFO] 未查找到歌曲 天亮以前说再见 对应的ID
+2019-09-01 22:43:40 main.py:110 [INFO] 未查找到歌曲 Straight Through My Heart(Main Version) 对应的ID
+2019-09-01 22:43:41 main.py:110 [INFO] 未查找到歌曲 Swear It Again (Radio Edit) 对应的ID
+2019-09-01 22:43:43 main.py:110 [INFO] 未查找到歌曲 处处吻 对应的ID
+2019-09-01 22:43:43 main.py:110 [INFO] 未查找到歌曲 你瞒我瞒 对应的ID
+2019-09-01 22:43:44 main.py:110 [INFO] 未查找到歌曲 爱得太迟 对应的ID
+2019-09-01 22:43:45 main.py:110 [INFO] 未查找到歌曲 Ship In The Sand 对应的ID
+2019-09-01 22:43:47 main.py:110 [INFO] 未查找到歌曲 Dream It Possible 对应的ID
+2019-09-01 22:43:47 main.py:110 [INFO] 未查找到歌曲 Lose Yourself (Markino Faded Remix) 对应的ID
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8d70\u9a6c", "artist": "\u9648\u7c92", "link": null, "data": false}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u79bb\u4eba\u6101", "artist": "\u66f2\u8096\u51b0", "link": null, "data": false}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u591a\u60f3\u62e5\u62b1\u4f60\u7684\u5b64\u5355", "artist": "\u5f64\u7ae5", "link": null, "data": false}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u518d\u89c1\u4e86\u6e58\u897f", "artist": "MC\u5c18\u7f18", "link": "http://audio01.dmhmusic.com/71_53_T10045902054_1039_4_1_0_sdk-cpm/0209/M00/62/B4/ChR47FsX3P2Acmy4AabZ7L6aUxU13.flac?xcode=e2839adb4ffc31015041100b52dc3922c8b80ad", "size": 26, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5f53\u771f\u5c31\u597d", "artist": "\u9648\u6dd1\u6866,\u5f20\u56fd\u8363", "link": "http://audio01.dmhmusic.com/71_53_T10041173022_128_4_1_0_sdk-cpm/0209/M00/2E/63/ChR461pkelCARVPbAE99YuxjDV8144.mp3?xcode=2059a75164db97ca503ffe4f17e47d15087fb1a", "size": 5, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "Victory", "artist": "Claudio Gizzi,Stefano Torossi", "link": "http://audio01.dmhmusic.com/71_53_T10038980734_128_4_1_0_sdk-cpm/0209/M00/11/FF/ChR47Fn1vi6ACtDEADPhoTBfOR8757.mp3?xcode=48d1569002b353fa503ff451907782239c8401a", "size": 3, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "There Will Never Be Another You (Live)", "artist": "George Benson", "link": "http://audio01.dmhmusic.com/71_53_T10033565614_755_4_1_0_sdk-cpm/0104/M00/AA/5D/ChR45VnNzaOAIddiA63qHqNd2hI05.flac?xcode=6e4ec7a687655164504100326c1eaaf45af982a", "size": 59, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "Malibu Nights", "artist": "Binky Womack,Rush Hour", "link": "http://audio01.dmhmusic.com/71_53_T10012929082_985_4_1_0_sdk-cpm/0101/M00/02/D3/ChR45Vl9EOmAW6xRAgAZ4hjifRo13.flac?xcode=ef5ab649392d6b02504121043fb56bc3de3d83d", "size": 32, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9ed1\u6b66\u58eb", "artist": "\u6797\u4fca\u6770", "link": "http://audio01.dmhmusic.com/71_53_T10038980143_128_4_1_0_sdk-cpm/0209/M00/11/FE/ChR47Fn1uKuAQDSCADWeNmo7Ncs438.mp3?xcode=6702ad56eed03ae7503fe2f6f2ea83485e4fe43", "size": 3, "data": true}
+2019-09-01 22:43:49 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sign Of The Times", "artist": "Quiet Riot", "link": "http://audio01.dmhmusic.com/71_53_T10020078078_1096_4_1_0_sdk-cpm/0104/M00/21/1D/ChR45FmBCPiAIDvoAmjNUh1xTnc89.flac?xcode=6656a3e29f04eb20504115f55b38c1f8d37b444", "size": 39, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "For", "artist": "Below Submarine", "link": "http://audio01.dmhmusic.com/71_53_T10050324310_128_4_1_0_sdk-cpm/0209/M00/BB/F7/ChR47F1j5LKAZHZPAClg0ysjwpw639.mp3?xcode=64d021db8972e7c0504091e606f5f533aefdf64", "size": 3, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "River", "artist": "Heath", "link": "http://audio01.dmhmusic.com/71_53_T10038831822_1411_4_1_0_sdk-cpm/0208/M00/13/BE/ChR47FnwXYCAERMkAeNXGTuD90g38.flac?xcode=90c75a1ce1abed7e50410fca0a17c7e9f7d3e87", "size": 30, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Won't Go Home Without You", "artist": "The Karaoke Channel", "link": "http://audio01.dmhmusic.com/71_53_T10045686011_860_4_1_0_sdk-cpm/0210/M00/62/6F/ChR47FsTa3qAfs1HAXZPhA52Qhs17.flac?xcode=34ba5e6f37d19d5f504104ef4073b5c7d64f061", "size": 23, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Supermarket Flowers (Instrumental Version)", "artist": "The Backing Baristas", "link": "http://audio01.dmhmusic.com/71_53_T10034466234_376_4_1_0_sdk-cpm/0101/M00/B8/9C/ChR45FneawGAAiAIAJ9xv3qQzOg27.flac?xcode=528bd1adc8578f5550412606c07e954ef34d08e", "size": 10, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Click Clack", "artist": "Monotonia Crew", "link": "http://audio01.dmhmusic.com/71_53_T10050618028_703_4_1_0_sdk-cpm/0210/M00/AB/F7/ChR47F1kJQyAHvGTAZsSdWUs46g66.flac?xcode=a8b2a78a5db082925040ff1b16a3ff3c79cd43f", "size": 26, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Wake Up And Live", "artist": "Chick Webb", "link": "http://audio01.dmhmusic.com/71_53_T10042870102_471_4_1_0_sdk-cpm/0208/M00/44/C4/ChR461qdZu-AVI83AI6D9u0mj3034.flac?xcode=d9b90d74306499935041098f523933f46e056c6", "size": 9, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8d8a\u6765\u8d8a\u4e0d\u61c2", "artist": "\u8521\u5065\u96c5", "link": "http://audio01.dmhmusic.com/71_53_T10038928529_128_4_1_0_sdk-cpm/0208/M00/14/88/ChR461nz4VGAIws7ADzlIpXLeec221.mp3?xcode=fa409850a245fb6f5040202ca31c30faf7c0c57", "size": 4, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Know Racism Is Cool Again, But\u2026", "artist": "Dave Foley", "link": "http://audio01.dmhmusic.com/71_53_T10034399658_742_4_1_0_sdk-cpm/0101/M00/AD/57/ChR45FnTRSyAbu0YAk05TEEkD9k05.flac?xcode=14a77e7dd355d6f250412514230179b6cb2feea", "size": 37, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9ece\u660e\u524d\u7684\u9ed1\u6697", "artist": "\u989c\u5c0f\u4e03", "link": null, "data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9ed8", "artist": "\u59dc\u5c0f\u767d", "link": "http://audio01.dmhmusic.com/71_53_T10047708875_128_4_1_0_sdk-cpm/0210/M00/7A/44/ChR47FvOBBqACnQWAEyYrAoK0WU764.mp3?xcode=a7f51126d543e14050407cbf033a2cb968b9aa2", "size": 5, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Live", "artist": "Celine Dion", "link": "http://audio01.dmhmusic.com/71_53_T10024648036_660_4_1_0_sdk-cpm/0105/M00/1F/81/ChR45FmAzwCAZ_2iASlk-4OAOR430.flac?xcode=f261914354843a7a5041067083083f0baa013ad", "size": 19, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7537\u5b69", "artist": "\u6768\u6c38\u806a", "link": "http://audio01.dmhmusic.com/71_53_T10049555044_128_4_1_0_sdk-cpm/0208/M00/89/B6/ChR47FwcpRqAU0NPADSRLX5CQpY395.mp3?xcode=67070c22bed411695040e94b3a2058544a66363", "size": 3, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u592a\u591a", "artist": "\u6c64\u975e", "link": null, "data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5403\u9e21\u795e\u66f2\uff08Remix\uff09", "artist": "\u6cea\u946b", "link": null, "data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u767d\u3044\u72fc", "artist": "\u4f50\u6e21\u5c71\u8c4a", "link": null, "data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e5d\u7237\u51fa\u5c71", "artist": "\u5c71\u6c34\u7ec4\u5408", "link": "http://audio01.dmhmusic.com/71_53_T10045920379_128_4_1_0_sdk-cpm/0206/M00/6A/6F/ChR47FsYBZqASAAoAEmFuqENoRQ877.mp3?xcode=641087a7bdc8702b50408a311634187470448de", "size": 5, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Hall of Fame", "artist": "Future Hitmakers", "link": "http://audio01.dmhmusic.com/71_53_T10032190365_128_4_1_0_sdk-cpm/0104/M00/7B/63/ChR45VmPFnSAG8tPADMhJloUG3c138.mp3?xcode=42be391bb5cc9c6050405e5b66e6bfb626bc863", "size": 3, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sleepy Head", "artist": "Bobby Hackett", "link": null, "data": false}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Cruisin", "artist": "Maxxess", "link": "http://audio01.dmhmusic.com/71_53_T10041911272_930_4_1_0_sdk-cpm/0208/M00/3A/4A/ChR461p_U0eAOJhgAh5jdMv1Sn095.flac?xcode=a50be33b7ebb17a6504100adcc68f6bc5474214", "size": 34, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Can't Take My Eyes off You", "artist": "Kotto", "link": "http://audio01.dmhmusic.com/71_53_T10013208058_813_4_1_0_sdk-cpm/0105/M00/C5/5D/ChR45FnmcP6AcZrkAToiM2EtpZw91.flac?xcode=752bd35328da11f15040fffe8624b6706cd5067", "size": 20, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "What I've Done", "artist": "Hollywood Session Group", "link": "http://audio01.dmhmusic.com/71_53_T10047927418_885_4_1_0_sdk-cpm/0207/M00/76/AE/ChR461vYd6WAcQGlAWBH8WcrLaU63.flac?xcode=5e9e00f177d365b350411366febdf8469c7c68a", "size": 22, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Viva La Vida", "artist": "Coldplay", "link": "http://audio01.dmhmusic.com/71_53_T10033374980_871_4_1_0_sdk-cpm/0103/M00/A9/EF/ChR45FnNrEaAUPvHAZXhVFRDlhI80.flac?xcode=8718a8f21bdb4562504087763e15ff2832f6617", "size": 25, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "What Makes You Beautiful", "artist": "Future Hitmakers", "link": "http://audio01.dmhmusic.com/71_53_T10028645463_1019_4_1_0_sdk-cpm/0103/M00/29/7C/ChR45VmCJKKAKX1zAYDtOP1sjoU65.flac?xcode=cd76dcfbe055d6e750411cf8d74ef7c0e64b293", "size": 24, "data": true}
+2019-09-01 22:43:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Waiting for Love", "artist": "Dance Music Decade", "link": "http://audio01.dmhmusic.com/71_53_T10029601400_853_4_1_0_sdk-cpm/0104/M00/2B/DE/ChR45VmCdsyAHVCSAXvfyhoXVNY03.flac?xcode=38502711a56cda2b50411efad2126449f1989d7", "size": 24, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "As Long As You Love Me", "artist": "The Maytones", "link": "http://audio01.dmhmusic.com/71_53_T10025688431_128_4_1_0_sdk-cpm/0105/M00/77/71/ChR45VmOtJqAIpGDADZEag_8AOQ130.mp3?xcode=13f26e49791cfe555040a7cd91034e9039e3d0e", "size": 3, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "There's Nothing Holdin' Me Back", "artist": "Giona Guidi", "link": "http://audio01.dmhmusic.com/71_53_T10040684484_989_4_1_0_sdk-cpm/0209/M00/2B/EA/ChR461petwiAJRmqAWa1BwTAj7403.flac?xcode=5827e7fa8047f3a85040c270373af8a9dcebb6f", "size": 22, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Air", "artist": "Owen Richards", "link": "http://audio01.dmhmusic.com/71_53_T10018033251_466_4_1_0_sdk-cpm/0104/M00/0F/38/ChR45Vl-rCKAVVJbARcmx82dvn010.flac?xcode=cae3682fd149632150411b7e297234ca5119298", "size": 17, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Can't Stop the Feeling!", "artist": "Meg Birch", "link": "http://audio01.dmhmusic.com/71_53_T10043648556_856_4_1_0_sdk-cpm/0206/M00/40/42/ChR461q1R1GAVU6HAW6Hv4wNHQE44.flac?xcode=f15c90ff76860618504112915479ada492f92f7", "size": 23, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Love Yourself", "artist": "Alma Thomas", "link": "http://audio01.dmhmusic.com/71_53_T10034771935_825_4_1_0_sdk-cpm/0102/M00/AE/9E/ChR45VnVAlKAaYGXAaSCrpqWmBw09.flac?xcode=49c7ef7b4d2838065040b7c722199c6bae0d2c7", "size": 26, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8d1d\u52a0\u5c14\u6e56\u7554", "artist": "\u9ed1\u9e2d\u5b50", "link": null, "data": false}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fire", "artist": "Lee Morgan", "link": "http://audio01.dmhmusic.com/71_53_T10027193590_988_4_1_0_sdk-cpm/0101/M00/25/DB/ChR45VmBqj2Ae3_3AhfgKNKX4N805.flac?xcode=979055a585bb1e49504069a45fa5bfbd2f21ee6", "size": 33, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Empire State of Mind", "artist": "The Karaoke Channel", "link": "http://audio01.dmhmusic.com/71_53_T10045687207_989_4_1_0_sdk-cpm/0207/M00/60/F4/ChR461sTc0mAFgPoAgjP_kvI30Y62.flac?xcode=f6274751f078b9cc5041127b04a2ff3727446f5", "size": 33, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Stronger (What Doesn't Kill You)", "artist": "Future Hitmakers", "link": "http://audio01.dmhmusic.com/71_53_T10018063486_884_4_1_0_sdk-cpm/0105/M00/0F/4B/ChR45Vl-rvuADU20AXf6GB7zm3888.flac?xcode=0e9c41d23a32020b50410bcc4172597fe79916d", "size": 23, "data": true}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Timber", "artist": "Bobby Darin", "link": null, "data": false}
+2019-09-01 22:43:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Thinking out Loud", "artist": "Sublime Reggae Kings", "link": "http://audio01.dmhmusic.com/71_53_T10041791661_918_4_1_0_sdk-cpm/0208/M00/39/59/ChR461p6tGyAAq8qAZXruKCeku428.flac?xcode=03fa4b9e8fa32b39504118c90a0181f816ebc54", "size": 25, "data": true}
+2019-09-01 22:43:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "The Sound Of Silence", "artist": "Paul Simon,Art Garfunkel,Brendan O'Neil", "link": "http://audio01.dmhmusic.com/71_53_T10020235901_771_4_1_0_sdk-cpm/0103/M00/14/9B/ChR45Fl_W_2APSVaAfBXN5ycMQo12.flac?xcode=10eac8ce17f7817b5040674d2ef9719f5d12177", "size": 31, "data": true}
+2019-09-01 22:43:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Relax, Take It Easy", "artist": "The Hit Co.", "link": "http://audio01.dmhmusic.com/71_53_T10026723498_819_4_1_0_sdk-cpm/0102/M00/24/AD/ChR45VmBfz2AXAHKAV9nbDCzAX047.flac?xcode=a55aee0ef84697865040fe26adf0339acc82e07", "size": 22, "data": true}
+2019-09-01 22:43:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Payphone", "artist": "Maroon 5", "link": "http://audio01.dmhmusic.com/71_53_T10019189438_128_4_1_0_sdk-cpm/0105/M00/56/22/ChR45VmLfp6AUS3tADy1ZWQWLP0185.mp3?xcode=fe4748f20e87e4ec504028d881214ee74c1cb41", "size": 4, "data": true}
+2019-09-01 22:43:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Version", "artist": "Version", "link": "http://audio01.dmhmusic.com/71_53_T10015254392_668_4_1_0_sdk-cpm/0103/M00/B6/5F/ChR45VneD4OAMcYgAUrrX0ZR7ew20.flac?xcode=f5d7ba2a26335f1050411f76cb58da0e10ffd3d", "size": 21, "data": true}
+2019-09-01 22:43:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Space Bound", "artist": "Hip Hop Hitmakers", "link": "http://audio01.dmhmusic.com/71_53_T10024491042_992_4_1_0_sdk-cpm/0103/M00/1F/1D/ChR45FmAwieARLPQAhA531rSoIg87.flac?xcode=9f694644c7606e7d504106400c3bc41dafd5fe5", "size": 33, "data": true}
+2019-09-01 22:43:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "It Keeps Reminding Me", "artist": "The Velvelettes", "link": "http://audio01.dmhmusic.com/71_53_T10031911769_922_4_1_0_sdk-cpm/0102/M00/31/B0/ChR45VmDRg6AZPIkAWJMpMjN7k447.flac?xcode=18e75841b4208bf25041279d251c737d2e67e06", "size": 22, "data": true}
+2019-09-01 22:43:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Whistle", "artist": "Various Artists", "link": "http://audio01.dmhmusic.com/71_53_T10016295255_1011_4_1_0_sdk-cpm/0104/M00/0A/FD/ChR45Vl-HVqAe02CAbILef0bdbA56.flac?xcode=f096519cafb6400a504128888f7d5c6151e21d1", "size": 27, "data": true}
+2019-09-01 22:43:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "See You Again", "artist": "Wizard See,Clone", "link": "http://audio01.dmhmusic.com/71_53_T10031030149_128_4_1_0_sdk-cpm/0101/M00/92/0A/ChR45VmRRI6ALZunADfI_Z6YmOI534.mp3?xcode=634e0e58135b2eca5040340282f417f94633194", "size": 3, "data": true}
+2019-09-01 22:43:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "We Are Young", "artist": "Pop Classics", "link": "http://audio01.dmhmusic.com/71_53_T10019397324_825_4_1_0_sdk-cpm/0102/M00/12/8E/ChR45Fl_G0yAN15VAZVvQMrPRHk47.flac?xcode=23bf254d5283a4d4504119cb99c64d5300f0541", "size": 25, "data": true}
+2019-09-01 22:43:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "You Raise Me Up", "artist": "Celtic Woman", "link": "http://audio01.dmhmusic.com/71_53_T10012353570_128_4_1_0_sdk-cpm/0102/M00/35/B2/ChR45FmIiKOAM98yAELGDOOdo0w785.mp3?xcode=209dd1bbaa600067503fad7979aa1c0dd809b66", "size": 4, "data": true}
+2019-09-01 22:44:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Dusk Till Dawn", "artist": "Kastor", "link": null, "data": false}
+2019-09-01 22:44:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "Closer", "artist": "Attraction", "link": "http://audio01.dmhmusic.com/71_53_T10038984486_128_4_1_0_sdk-cpm/0208/M00/14/F9/ChR47Fn14huACoIaAEtgUlQBQRw844.mp3?xcode=e6aa785a6c562a0f50400276f4150487327db07", "size": 5, "data": true}
+2019-09-01 22:44:50 main.py:138 [INFO] 获取歌曲信息 {"songname": "UPTOWN FUNK", "artist": "\u90d1\u6cfd\u9716", "link": null, "data": false}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6f14\u5458", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10040589078_128_4_1_0_sdk-cpm/0210/M00/11/5F/ChR461n0hDaATFisAD_LbEwpXXo998.mp3?xcode=a2dac756c197754a50404fe8aab16795784cd2f", "size": 4, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Tik Tok ", "artist": "Cardio Workout Crew", "link": "http://audio01.dmhmusic.com/71_53_T10014787009_1036_4_1_0_sdk-cpm/0101/M00/07/53/ChR45Fl9pAaAKRV2AYgvn6BUX6k93.flac?xcode=d619507c2652396050412bacfb4a3dc357a7ac3", "size": 25, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u771f\u7684\u7231\u4f60", "artist": "Beyond", "link": "http://audio01.dmhmusic.com/71_53_T10041185797_128_4_1_0_sdk-cpm/0209/M00/2E/9A/ChR461plLxCANolPAEM9Dh4yKlo937.mp3?xcode=d4076a4758285144503f81f08302019c8262dc1", "size": 4, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Try", "artist": "Britneylee", "link": null, "data": false}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u522b\uff08\u798f\u5229\u7248\uff09", "artist": "\u949f\u65e0\u8273", "link": null, "data": false}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u76f8\u4f9d\u4e3a\u547d", "artist": "\u67cf\u9e64", "link": null, "data": false}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "New Thang", "artist": "Urban Madness", "link": "http://audio01.dmhmusic.com/71_53_T10039462710_996_4_1_0_sdk-cpm/0207/M00/15/94/ChR47Fn4Vk6ACVnYAbE6dFAHpdw35.flac?xcode=ca69a113994f488950410700e2b4f197addf77f", "size": 27, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u88ab\u9057\u5fd8\u7684\u65f6\u5149+\u4e0a\u6d77\u6ee9+\u6211\u7b49\u5230\u82b1\u513f\u4e5f\u8c22\u4e86", "artist": "\u871c\u8702\u5c11\u5973\u961f", "link": null, "data": false}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Talking to the Moon", "artist": "The Hit Crew", "link": "http://audio01.dmhmusic.com/71_53_T10029407829_843_4_1_0_sdk-cpm/0102/M00/2B/62/ChR45VmCZXiAS6mkAVrjXU4Rocw00.flac?xcode=a89c4b7848655cac50410404949fdcbd26041ea", "size": 22, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Not afraid", "artist": "Made famous by Eminem", "link": "http://audio01.dmhmusic.com/71_53_T10014950783_860_4_1_0_sdk-cpm/0105/M00/07/B8/ChR45Vl9sMmAMojdAcCH_fQbBuM50.flac?xcode=ac78f90de8f060615041082ef3dff3fe79f47e5", "size": 28, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "La Nevada (Theme) [feat. Johnny Coles, Curtis Fuller & Steve Lacy]", "artist": "Gil Evans", "link": "http://audio01.dmhmusic.com/71_53_T10013705720_830_4_1_0_sdk-cpm/0104/M00/04/B5/ChR45Fl9TFGAf7uJAod5-lZJNGU70.flac?xcode=54de2d5b7249b1fa50411ce3e7d7880f0fb8f87", "size": 40, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Live", "artist": "Celine Dion", "link": "http://audio01.dmhmusic.com/71_53_T10024648036_660_4_1_0_sdk-cpm/0105/M00/1F/81/ChR45FmAzwCAZ_2iASlk-4OAOR430.flac?xcode=f261914354843a7a5041067083083f0baa013ad", "size": 19, "data": true}
+2019-09-01 22:44:51 main.py:138 [INFO] 获取歌曲信息 {"songname": "Numb", "artist": "Ameritz Tribute Club", "link": "http://audio01.dmhmusic.com/71_53_T10031531648_927_4_1_0_sdk-cpm/0102/M00/30/B9/ChR45VmDIXeAT2i0AU-zvAldvlQ11.flac?xcode=9165ab8729f42a335040bd2caf3d5f4d3e8caf1", "size": 21, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Lucky Strike", "artist": "Billy Lincoln,Kat Green,Moses Truzman", "link": "http://audio01.dmhmusic.com/71_53_T10042892717_1050_4_1_0_sdk-cpm/0207/M00/44/2E/ChR461qe0wyAWIqDAPjOaDgg6XM24.flac?xcode=9ac197cc750c3ef350412469a23e0cf44d09920", "size": 16, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "A", "artist": "\u85e4\u6728\u76f4\u4eba", "link": null, "data": false}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Love Me Like You Do", "artist": "Flatline and Bass", "link": "http://audio01.dmhmusic.com/71_53_T10033715461_1022_4_1_0_sdk-cpm/0101/M00/AA/ED/ChR45FnP6LCAESVyAYrdyw9dIVA43.flac?xcode=50e1c623ad09acda504111ad1c3979a2cc2e5d6", "size": 25, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "To Be Loved By You", "artist": "Colin B", "link": "http://audio01.dmhmusic.com/71_53_T10012659223_799_4_1_0_sdk-cpm/0104/M00/C5/AC/ChR45Vnmz8WAZwOGAPu_DwYWAoY98.flac?xcode=b4127756199d86a7504122d03488a364a2eaa8e", "size": 16, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Mockingbird", "artist": "Zee Avi", "link": "http://audio01.dmhmusic.com/71_53_T10020274354_782_4_1_0_sdk-cpm/0102/M00/14/B3/ChR45Fl_XumABI6QAK7IJeUJ1EE73.flac?xcode=586d82798a551d3b50410199c01b44b6b5a9953", "size": 11, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Let Me Love You", "artist": "Shaggy,DJ Rebel,Mohombi", "link": "http://audio01.dmhmusic.com/71_53_T10033964260_1075_4_1_0_sdk-cpm/0103/M00/AB/DC/ChR45FnRECWAZpRIAbOW2_IYFc417.flac?xcode=d2c5906a1a5fa4485040d29a6cd63b57e4eee3a", "size": 27, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Me and My Broken Heart", "artist": "Carl Smith", "link": "http://audio01.dmhmusic.com/71_53_T10043147676_381_4_1_0_sdk-cpm/0206/M00/3C/CA/ChR461qnkgmAFkh7AIDqP_r4psc17.flac?xcode=3bbd729ecf25316f5041250b14b9554e2466c34", "size": 8, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "My Love", "artist": "\u5218\u5fb7\u534e", "link": null, "data": false}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Let Me Love You", "artist": "Shaggy,DJ Rebel,Mohombi", "link": "http://audio01.dmhmusic.com/71_53_T10033964260_1075_4_1_0_sdk-cpm/0103/M00/AB/DC/ChR45FnRECWAZpRIAbOW2_IYFc417.flac?xcode=d2c5906a1a5fa4485040d29a6cd63b57e4eee3a", "size": 27, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sad Letter Blues", "artist": "Big Bill Broonzy", "link": null, "data": false}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Maps", "artist": "LASERS", "link": "http://audio01.dmhmusic.com/71_53_T10044245581_867_4_1_0_sdk-cpm/0207/M00/50/B0/ChR461rQ2gOAJJlHAZtQ-GKMK6o87.flac?xcode=5a37ee1773fd591350411e4267c095c821b953a", "size": 26, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5947\u5999\u80fd\u529b\u6b4c", "artist": "\u9648\u7c92", "link": null, "data": false}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Lights", "artist": "Jim Yosef", "link": "http://audio01.dmhmusic.com/71_53_T10012563678_1038_4_1_0_sdk-cpm/0105/M00/AF/85/ChR45FnVhFWABw9pAb3jP17S1nw98.flac?xcode=53ea5707e65ae88850410867532a8e0cc50cc62", "size": 28, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Light", "artist": "Sam Koxx", "link": "http://audio01.dmhmusic.com/71_53_T10043915897_953_4_1_0_sdk-cpm/0209/M00/4D/7B/ChR461rDrVuABjnoAWvNH87DFBg67.flac?xcode=96b17c63c462ce1a50411aff4b138eafa47f797", "size": 23, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Lighters", "artist": "DJ Covers", "link": "http://audio01.dmhmusic.com/71_53_T10018773720_688_4_1_0_sdk-cpm/0105/M00/11/07/ChR45Fl-6FiANblLAZbeXD2JSlQ51.flac?xcode=6aed2f6bbbcd24aa5041217ac1e756ddc89478d", "size": 25, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5e73\u51e1\u4e4b\u8def", "artist": "\u4f55\u5a01\u9716,\u8bb8\u6587\u54f2", "link": "http://audio01.dmhmusic.com/71_53_T10045933247_128_4_1_0_sdk-cpm/0209/M00/63/40/ChR461sYHtWAdbFTADTpKd28SAM250.mp3?xcode=074bcac040f29ae450401269498633034d88e79", "size": 3, "data": true}
+2019-09-01 22:44:52 main.py:138 [INFO] 获取歌曲信息 {"songname": "Just The Way You Are", "artist": "\ud53c\uc544\ub178(Piano)", "link": null, "data": false}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5357\u5c71\u5357", "artist": "\u9a6c\u9814", "link": "http://audio01.dmhmusic.com/71_53_T10047707112_128_4_1_0_sdk-cpm/0209/M00/73/15/ChR461vOASCAdFS1AE8ie07S5bs168.mp3?xcode=4ffe493a149fe7555040d48b5827a2070f8872b", "size": 5, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Just Can't Get Enough", "artist": "Tomorrow People", "link": "http://audio01.dmhmusic.com/71_53_T10048145735_1056_4_1_0_sdk-cpm/0206/M00/7E/C5/ChR461vciU6ANZtQAZ_Q7LKCpBA27.flac?xcode=f13e6db8f50a26a25041072ff6bac11acb47595", "size": 26, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6d77\u9614\u5929\u7a7a", "artist": "Beyond", "link": "http://audio01.dmhmusic.com/71_53_T10041185804_128_4_1_0_sdk-cpm/0207/M00/31/00/ChR47FplL3CAGuyfAHfy7_mzSHk964.mp3?xcode=a5beb2aa62a2818950406011dce3e5b173da3d1", "size": 7, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Brighter", "artist": "Supersub x Blackshadow", "link": "http://audio01.dmhmusic.com/71_53_T10043501590_1113_4_1_0_sdk-cpm/0208/M00/4A/AA/ChR461qyQWaASu9MAZFqPCq8zoQ12.flac?xcode=9863e04cdb69c30750412a1aab9105235f47361", "size": 25, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e00\u534a", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10038912273_2304_4_1_0_sdk-cpm/0209/M00/11/78/ChR461nzS6iAYHFdA6oQpURifD080.flac?xcode=8172a34da31c224e504089af7a4522c3c6e1bc6", "size": 59, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Got You (I Feel Good)", "artist": "The Hit Co.", "link": "http://audio01.dmhmusic.com/71_53_T10031452649_785_4_1_0_sdk-cpm/0103/M00/30/87/ChR45VmDGeOAPscLAP6p9_34b-E15.flac?xcode=1d2e47a84cde57b25041072a28780d0de2022bf", "size": 16, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u72ec\u5bb6\u8bb0\u5fc6", "artist": "\u8fea\u5965", "link": null, "data": false}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Happy (From \"Despicable Me 2\") [Instrumental Version]", "artist": "Hollywood Movie Theme Orchestra", "link": "http://audio01.dmhmusic.com/71_53_T10013128303_915_4_1_0_sdk-cpm/0103/M00/09/1A/ChR45Fl933mAS2w8Abi0ID0fbJA60.flac?xcode=5bff3c5341a250b05041029f4772e24263c8e57", "size": 28, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Don't Let Me Down", "artist": "Eve St. Jones", "link": "http://audio01.dmhmusic.com/71_53_T10034307662_685_4_1_0_sdk-cpm/0102/M00/AD/46/ChR45VnTKu-Af7ZsAP7vQkxHM5E32.flac?xcode=05cc4e2080b39f95504119f1f9da77cbf72aa5e", "size": 16, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Five Hours (Originally Performed By Deorro) [Karaoke Version]", "artist": "UPH Karaoke", "link": "http://audio01.dmhmusic.com/71_53_T10041784319_856_4_1_0_sdk-cpm/0207/M00/38/BF/ChR461p50UKAdOyvAhATc3GZ4rY06.flac?xcode=6bb50da60a21c4bb5041275776244ec3c0de1f2", "size": 33, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Wrecking Ball", "artist": "Network Music Ensemble", "link": "http://audio01.dmhmusic.com/71_53_T10041549811_1041_4_1_0_sdk-cpm/0209/M00/32/5F/ChR47FpwokqAOwO7AQUk4CSxf_c79.flac?xcode=d2459583cedb8af95041277c5c0e18b5aa597d0", "size": 16, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Version", "artist": "Version", "link": "http://audio01.dmhmusic.com/71_53_T10032848610_668_4_1_0_sdk-cpm/0103/M00/B6/5F/ChR45VneD4OAMcYgAUrrX0ZR7ew20.flac?xcode=22ff049b693464c750411f59974964a6c981d50", "size": 21, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Die Young", "artist": "Cairo Knife Fight", "link": "http://audio01.dmhmusic.com/71_53_T10043339548_875_4_1_0_sdk-cpm/0209/M00/46/6C/ChR47FqtZKqAciK5AcK123PnotQ51.flac?xcode=f51faa98aafa3b4a504125e8e8bfd20cb30cfec", "size": 28, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Faded", "artist": "The Harmony Group,Marta Espinosa", "link": "http://audio01.dmhmusic.com/71_53_T10033835882_1031_4_1_0_sdk-cpm/0103/M00/C5/3E/ChR45FnmbCCAcbneAaAIjPFHVQ877.flac?xcode=562ba41d36df696c5040df97de0276e5bc4a040", "size": 26, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fireflies", "artist": "Lights & Motion", "link": "http://audio01.dmhmusic.com/71_53_T10011911776_879_4_1_0_sdk-cpm/0102/M00/AB/D4/ChR45VnRBeSAIm-rAiGbIhpSFBQ57.flac?xcode=0dffd12ed080ebfe50412439ebf455a18c1be7a", "size": 34, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Demons", "artist": "Imagine Dragons", "link": "http://audio01.dmhmusic.com/71_53_T10013880768_835_4_1_0_sdk-cpm/0101/M00/05/21/ChR45Vl9WVeAJGiqATFX-n3Kn_g15.flac?xcode=063c8ac2f80453855040af2c3b2f7be57e36a76", "size": 19, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Wicked Wonderland", "artist": "Let The Music Play", "link": "http://audio01.dmhmusic.com/71_53_T10034669370_1039_4_1_0_sdk-cpm/0103/M00/AE/53/ChR45FnUwlCAAoUlAbEwg48mpEs04.flac?xcode=7283c39d02fd1fc750412a165aadad02d7cb94f", "size": 27, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "That Girl", "artist": "Rasta B.", "link": "http://audio01.dmhmusic.com/71_53_T10041412489_978_4_1_0_sdk-cpm/0208/M00/34/3A/ChR47Fpr8kKAcLmKAaJc8M0tMag29.flac?xcode=f63fd4632d140f9d5041074ab4ff3282d7eb2b7", "size": 26, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Dead and Gone", "artist": "State Champs", "link": null, "data": false}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "Where'd You Go", "artist": "R7CKY", "link": "http://audio01.dmhmusic.com/71_53_T10049784661_842_4_1_0_sdk-cpm/0208/M00/D9/66/ChR47F1H3jqAJf2YARo67RcE2-I23.flac?xcode=2c7350189b0edfa950410e445aa08257ca7b344", "size": 18, "data": true}
+2019-09-01 22:44:53 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7231\u662f\u6c38\u6052", "artist": "\u53e4\u5de8\u57fa", "link": "http://audio01.dmhmusic.com/71_53_T10046031519_803_4_1_0_sdk-cpm/0207/M00/64/47/ChR47FsY3nSACzCEAdvWMzNs-FM51.flac?xcode=db9b05f209f3c666504085120aae7a7c1e3cbf2", "size": 30, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5199\u7ed9\u9ec4\u51a0\u8001\u5e08\u7684\u8282\u594f\u5e03\u9c81\u65af", "artist": "\u5f26\u660e", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6708\u534a\u5c0f\u591c\u66f2", "artist": "\u5f20\u7a46\u5ead", "link": "http://audio01.dmhmusic.com/71_53_T10049746199_1217_4_1_0_sdk-cpm/0207/M00/54/D1/ChR47Fy-p8iAAM7eAt_ZK4wouKc52.flac?xcode=43e929a3f1150fc05040946cb77fdaf2e231d6d", "size": 46, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7231\u62fc\u624d\u4f1a\u8d62", "artist": "\u8349\u8722", "link": "http://audio01.dmhmusic.com/71_53_T10041169249_128_4_1_0_sdk-cpm/0207/M00/30/D0/ChR461pkhU2AAMnQADNaHu_Tfdo020.mp3?xcode=9a9a621f2665ed5c503fb0cfdb9f0fb489c9656", "size": 3, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Listen", "artist": "Chad Brownlee", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6212\u70df", "artist": "\u51b0\u72d0", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u7ed9\u6211\u542c\u597d", "artist": "\u5f90\u5f64\u535a", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Catch My Breath", "artist": "Kelly Clarkson,Eric Olson,The Party Machines,Jason Halbert", "link": "http://audio01.dmhmusic.com/71_53_T10012958859_943_4_1_0_sdk-cpm/0103/M00/02/E6/ChR45Vl9EzeAHJQsAbMT0y4b77091.flac?xcode=6fc81cb00205e6af50411f6695aef3bc6ae1ee5", "size": 27, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Yo", "artist": "El G\u00fcero de Sinaloa con el Mariachi Real de Jalisco", "link": "http://audio01.dmhmusic.com/71_53_T10018389644_729_4_1_0_sdk-cpm/0103/M00/10/16/ChR45Vl-yqKAZuByASxci8AxaKs89.flac?xcode=120b73f2fe63565f50410ab642353db60c444a7", "size": 19, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "I'm in Here", "artist": "Pop Feast", "link": "http://audio01.dmhmusic.com/71_53_T10015677154_860_4_1_0_sdk-cpm/0105/M00/09/7C/ChR45Fl97KCAX5fdAW38TDn_snw79.flac?xcode=10761aa78c712355504107dcaa0d3f7668d751f", "size": 23, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Live", "artist": "Celine Dion", "link": "http://audio01.dmhmusic.com/71_53_T10024648036_660_4_1_0_sdk-cpm/0105/M00/1F/81/ChR45FmAzwCAZ_2iASlk-4OAOR430.flac?xcode=f261914354843a7a5041067083083f0baa013ad", "size": 19, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sing Me To Sleep", "artist": "Siskiyou", "link": "http://audio01.dmhmusic.com/71_53_T10038833376_1411_4_1_0_sdk-cpm/0209/M00/10/E0/ChR47Fnwa_KAR5xrAGx3On1cPIw61.flac?xcode=76c7542cb1dbd039504108e736267a25e238849", "size": 7, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5149", "artist": "\u9648\u7c92", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fade", "artist": "Alan Walker", "link": "http://audio01.dmhmusic.com/71_53_T10015358044_1045_4_1_0_sdk-cpm/0104/M00/08/B6/ChR45Vl90mmAVbBZAg6-A945Ydw13.flac?xcode=8a7cedfa9c02119b504107984ef802de9b9f887", "size": 33, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fade", "artist": "Alan Walker", "link": "http://audio01.dmhmusic.com/71_53_T10015358044_1045_4_1_0_sdk-cpm/0104/M00/08/B6/ChR45Vl90mmAVbBZAg6-A945Ydw13.flac?xcode=8a7cedfa9c02119b504107984ef802de9b9f887", "size": 33, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5e73\u51e1", "artist": "\u6768\u51a0\u6210", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6613\u71c3\u6613\u7206\u70b8", "artist": "\u9648\u7c92", "link": null, "data": false}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Darkside", "artist": "Phubber", "link": "http://audio01.dmhmusic.com/71_53_T10049755957_1470_4_1_0_sdk-cpm/0210/M00/74/9C/ChR47Fzekm-AbwBkBAUmLnp7DUA28.flac?xcode=1a304fa0765d662a50410265f03be303ed140ed", "size": 64, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Water Under the Bridge", "artist": "Pop Mania", "link": "http://audio01.dmhmusic.com/71_53_T10034517639_841_4_1_0_sdk-cpm/0102/M00/AD/BA/ChR45FnT26iAL9IsAX7cfaFb-WQ14.flac?xcode=d61ce0a4803d2f8f50411875a461198ecd8b9af", "size": 24, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Shooting Stars", "artist": "Will Tang", "link": "http://audio01.dmhmusic.com/71_53_T10030182545_724_4_1_0_sdk-cpm/0104/M00/AA/27/ChR45FnNvf2AGZt7ARABVYvTx8Q28.flac?xcode=56ebaebf1831f14250412c9b02d3d104a29d814", "size": 17, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Live", "artist": "Celine Dion", "link": "http://audio01.dmhmusic.com/71_53_T10024648036_660_4_1_0_sdk-cpm/0105/M00/1F/81/ChR45FmAzwCAZ_2iASlk-4OAOR430.flac?xcode=f261914354843a7a5041067083083f0baa013ad", "size": 19, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7231\u7b11\u7684\u773c\u775b", "artist": "\u6797\u4fca\u6770", "link": "http://audio01.dmhmusic.com/71_53_T10038966215_128_4_1_0_sdk-cpm/0209/M00/11/E2/ChR461n1PlGAbtTQAD3tps5beJY881.mp3?xcode=9b7639f75f089867503fcb8fe51ef42d89d9029", "size": 4, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Espiritu", "artist": "Seve", "link": "http://audio01.dmhmusic.com/71_53_T10028058473_1026_4_1_0_sdk-cpm/0103/M00/28/04/ChR45FmB8wCAQpHtAuBGnZI9lmw93.flac?xcode=4af6efb01283161a504127c0043d5b0442b8246", "size": 46, "data": true}
+2019-09-01 22:44:54 main.py:138 [INFO] 获取歌曲信息 {"songname": "Version", "artist": "Version", "link": "http://audio01.dmhmusic.com/71_53_T10015628020_668_4_1_0_sdk-cpm/0103/M00/B6/5F/ChR45VneD4OAMcYgAUrrX0ZR7ew20.flac?xcode=2b1622884d74680750410f145afca65166c4d33", "size": 21, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u53ef\u60dc\u6ca1\u5982\u679c", "artist": "\u9ea6\u514b\u75af\u4e50\u56e2", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u604b\u4e00\u4e16\u7684\u7231", "artist": "\u83ab\u6587\u851a", "link": "http://audio01.dmhmusic.com/71_53_T10041163433_880_4_1_0_sdk-cpm/0207/M00/2F/2F/ChR461pgND-AR40CATfUFBnngek15.flac?xcode=57d24396f3875ef35041293e2b6897177ca8b3f", "size": 19, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "We Don't Talk Anymore", "artist": "Jean-Pierre Danel", "link": "http://audio01.dmhmusic.com/71_53_T10013744814_996_4_1_0_sdk-cpm/0105/M00/04/CD/ChR45Vl9TxyAN3NUAftZmiRVX-I51.flac?xcode=4ac0a4ff5e3195e45040f42cf48c1e674f76c14", "size": 32, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5149\u5e74\u4e4b\u5916\uff08DJ\u7248\uff09", "artist": "\u5728\u5fe0,\u738b\u6893\u5929,\u4e5d\u7237", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7238\u7238\u5988\u5988", "artist": "\u6cfd\u592e\u5353\u739b", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4fee\u70bc\u7231\u60c5", "artist": "Perfect", "link": "http://audio01.dmhmusic.com/71_53_T10047711932_128_4_1_0_sdk-cpm/0207/M00/73/C8/ChR461vN_1WAAUCEAEYaTDb7j6U520.mp3?xcode=6ee82d3b90e52f4950407cf30ea3d19c4b31714", "size": 4, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9189\u8d64\u58c1", "artist": "\u6797\u4fca\u6770", "link": "http://audio01.dmhmusic.com/71_53_T10038980150_128_4_1_0_sdk-cpm/0209/M00/11/FE/ChR461n1uLCAWzXSAETAgKYp3WU293.mp3?xcode=1bf2b5f44d500255503ffe59026391abe1139c0", "size": 4, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u90a3\u4e9b\u4f60\u5f88\u5192\u9669\u7684\u68a6", "artist": "\u738b\u5b50\u94ed", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e0d\u4e3a\u8c01\u800c\u4f5c\u7684\u6b4c", "artist": "\u90d1\u6cfd\u9716,\u5e9e\u65b0\u529b", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5b66\u4e0d\u4f1a", "artist": "\u6768\u853a", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f5c\u66f2\u5bb6 ", "artist": "X.c\u6bb5\u5b50\u8f69", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9634\u5929\u5feb\u4e50", "artist": "UtauYukio", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Feel Good", "artist": "\u4efb\u8d24\u9f50", "link": "http://audio01.dmhmusic.com/71_53_T10041176321_1411_4_1_0_sdk-cpm/0210/M00/2C/39/ChR461pktm2AVYp2Aa8TechGDsk18.flac?xcode=223f7f82237bf56550410257707195b52cad7da", "size": 27, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e00\u767e\u4e07\u4e2a\u53ef\u80fd", "artist": "Christine Welch", "link": "http://audio01.dmhmusic.com/71_53_T10041183533_128_4_1_0_sdk-cpm/0209/M00/2E/92/ChR461plFy2ACozOAENDllS1lYA126.mp3?xcode=ac5686561f80f98150405a5cb844974e2df0292", "size": 4, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "Live", "artist": "Celine Dion", "link": "http://audio01.dmhmusic.com/71_53_T10024648036_660_4_1_0_sdk-cpm/0105/M00/1F/81/ChR45FmAzwCAZ_2iASlk-4OAOR430.flac?xcode=f261914354843a7a5041067083083f0baa013ad", "size": 19, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "Planet", "artist": "Kitaro", "link": "http://audio01.dmhmusic.com/71_53_T10019450362_772_4_1_0_sdk-cpm/0101/M00/C2/C6/ChR45FnmAbqANOXoALNm27ZHUCs86.flac?xcode=de5fcaab96d0643d50410f2fbd11b06366c9719", "size": 11, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u98ce\u7684\u5b63\u8282", "artist": "\u9b4f\u4f73\u827a", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7ea2\u662d\u613f", "artist": "\u97f3\u9619\u8bd7\u542c", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "Solo Dance", "artist": "Bugs in Amber", "link": "http://audio01.dmhmusic.com/71_53_T10042903366_128_4_1_0_sdk-cpm/0207/M00/44/65/ChR461qfY4KAGa2tADHUF00QXxk853.mp3?xcode=95009ba60c49562e504099796f8095e71b2fed9", "size": 3, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8fc7\u5ba2", "artist": "\u8fc7\u5ba2", "link": "http://audio01.dmhmusic.com/71_53_T10047976363_848_4_1_0_sdk-cpm/0207/M00/77/8E/ChR47FvaruqAfwqQAZztUk0AdNM32.flac?xcode=554917e51f8829e85040ff2d59375903d91ef36", "size": 26, "data": true}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8bf4\u6563\u5c31\u6563", "artist": "\u827e\u798f\u6770\u5c3c,\u9ec4\u65ed,\u7530\u7fbd\u751f", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "HERO", "artist": "\u674e\u5b50\u7487", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f53\u9762", "artist": "\u590f\u96e8\u83f2", "link": null, "data": false}
+2019-09-01 22:44:55 main.py:138 [INFO] 获取歌曲信息 {"songname": "Gotta Have You", "artist": "Curtis Lee", "link": "http://audio01.dmhmusic.com/71_53_T10038920774_1411_4_1_0_sdk-cpm/0207/M00/13/9F/ChR461nzmN6AMXa4AFADyma09Ao42.flac?xcode=d2175e36112457a3504113694bb2b6a70a57f7b", "size": 5, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u671f\u5f85", "artist": "\u4faf\u5f3a", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8d70\u5728\u51b7\u98ce\u4e2d", "artist": "\u4e1c\u9713", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5728\u8fd9\u4e2a\u5c34\u5c2c\u7684\u5e74\u7eaa", "artist": "\u6731\u6653\u7433April", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "GQ", "artist": "Lola Coca", "link": "http://audio01.dmhmusic.com/71_53_T10020223610_128_4_1_0_sdk-cpm/0104/M00/5B/7C/ChR45FmMAp6AMU9MACfKytvIarM497.mp3?xcode=3121a3af89972dd3503fa7dc47b6a0b142aa518", "size": 2, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sound of silence", "artist": "Sanshiro with clione", "link": "http://audio01.dmhmusic.com/71_53_T10045385783_128_4_1_0_sdk-cpm/0207/M00/5E/57/ChR47FsP_c2AGw0tADAtO1n20TU184.mp3?xcode=bb2500d34af547d25040b2ae5f2a2631d9d6815", "size": 3, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e00\u5982\u5e74\u5c11\u6a21\u6837", "artist": "\u9648\u9e3f\u5b87", "link": "http://audio01.dmhmusic.com/71_53_T10041022354_873_4_1_0_sdk-cpm/0210/M00/28/38/ChR461pYnF6AeLtrAbX6H-UpomM20.flac?xcode=7104f16fcbf6f574504085bd92ef5264f84b0d4", "size": 27, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6211\u4ece\u5d16\u8fb9\u8dcc\u843d", "artist": "\u8c22\u6625\u82b1", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u513f\u65f6", "artist": "\u5218\u660a\u9716", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e0d\u5fc5\u518d\u8bf4\u7231\u6211", "artist": "\u5468\u8bd7\u96c5", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7406\u60f3", "artist": "MC\u5927\u79d1", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sally Gardens", "artist": "The O'Neill Brothers", "link": "http://audio01.dmhmusic.com/71_53_T10021281587_606_4_1_0_sdk-cpm/0102/M00/17/2E/ChR45Vl_r9iAEbc9AXWObZ1i1yc70.flac?xcode=a659760c6790939f50410bd7a6eefe37d942b2c", "size": 23, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5f80\u540e\u4f59\u751f", "artist": "\u9a6c\u826f,\u5b59\u831c\u8339", "link": "http://audio01.dmhmusic.com/71_53_T10046885865_128_4_1_0_sdk-cpm/0206/M00/7B/02/ChR461urPneAN8rbADnHLEU29-Y184.mp3?xcode=3555664f81d93dd6503ff6463546a87a1145377", "size": 4, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u53ef\u80fd\u5426\uff082018\u7248\uff09", "artist": "\u590f\u78ca", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8d77\u98ce\u4e86", "artist": "\u90ed\u7f8e\u7f8e", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5e7f\u4e1c\u7231\u60c5\u6545\u4e8b", "artist": "\u90ed\u4e1c\u660a", "link": "http://audio01.dmhmusic.com/71_53_T10049266176_128_4_1_0_sdk-cpm/0208/M00/86/4F/ChR47FwFgvuAfgd-ADOa-QNHO80998.mp3?xcode=ed5900be8333d64c50400b07b5f5ebb36621456", "size": 3, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u5c31\u4e0d\u8981\u60f3\u8d77\u6211", "artist": "\u7396\u5155", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Pink Champagne", "artist": "Lionel Hampton", "link": "http://audio01.dmhmusic.com/71_53_T10038957062_1411_4_1_0_sdk-cpm/0208/M00/14/C2/ChR47Fn067-AaJujAMRJg4e6f5k95.flac?xcode=1112530e6ccdf43950410ac5ff6aa15ec8ecdb4", "size": 12, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Turnin\u2019", "artist": "Krueger", "link": "http://audio01.dmhmusic.com/71_53_T10040942837_880_4_1_0_sdk-cpm/0207/M00/2C/63/ChR461pYYEmAZH4uAXig-MW9aNc20.flac?xcode=0d8d5676048d8fc650410df8052df2864d0d19d", "size": 24, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Just Give Me A Reason", "artist": "The Mist", "link": "http://audio01.dmhmusic.com/71_53_T10041918701_624_4_1_0_sdk-cpm/0208/M00/3A/51/ChR47Fp_VRWAeiccASJ-DU7zszk84.flac?xcode=43b9e5cc2e86419250410c0d92e4f4af6088d9f", "size": 18, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u901d\u5e74", "artist": "\u590f\u5c0f\u864e", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Hymn for the Weekend", "artist": "Power Music Workout", "link": "http://audio01.dmhmusic.com/71_53_T10034152884_1027_4_1_0_sdk-cpm/0105/M00/C3/3D/ChR45FnmFiWAJepRAaFRU92K88E68.flac?xcode=42c106d3ced8fc7950411aaaa09b6cbd05a5dd9", "size": 26, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Beautiful World", "artist": "Christoffer H\u00f8yer", "link": "http://audio01.dmhmusic.com/71_53_T10046263407_900_4_1_0_sdk-cpm/0206/M00/6D/C3/ChR47FszVaaAJXM8AayYYnFsFEI69.flac?xcode=acf8b80d88faa40a50412879d50a01903caf24e", "size": 27, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "At the Nine Angles of the atam\u00e9", "artist": "King", "link": null, "data": false}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Imagination", "artist": "Curtis Fuller", "link": "http://audio01.dmhmusic.com/71_53_T10023885428_480_4_1_0_sdk-cpm/0102/M00/1D/9C/ChR45FmAjuqAcacoAXQMUCTAsJY60.flac?xcode=0de00296e8226d365040f306e9c5afc40ec00c9", "size": 23, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "It Is Well (Live)", "artist": "Israel Mosehla", "link": "http://audio01.dmhmusic.com/71_53_T10012031223_944_4_1_0_sdk-cpm/0103/M00/00/A5/ChR45Vl8yaCAdUOfAOgZBzMyjZA73.flac?xcode=c03713a4e692016150410ea17c368039abe8f64", "size": 15, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Attention", "artist": "Vic van Mason", "link": "http://audio01.dmhmusic.com/71_53_T10035655610_919_4_1_0_sdk-cpm/0104/M00/BD/8C/ChR45VngiECARnzNAWuZVTEpZpE25.flac?xcode=d41419a49027e28350411d829a441985936e297", "size": 23, "data": true}
+2019-09-01 22:44:56 main.py:138 [INFO] 获取歌曲信息 {"songname": "Light", "artist": "Sam Koxx", "link": "http://audio01.dmhmusic.com/71_53_T10043915897_953_4_1_0_sdk-cpm/0209/M00/4D/7B/ChR461rDrVuABjnoAWvNH87DFBg67.flac?xcode=96b17c63c462ce1a50411aff4b138eafa47f797", "size": 23, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6210\u90fd", "artist": "\u5174\u5b50", "link": null, "data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Havana", "artist": "Ed Clarke", "link": "http://audio01.dmhmusic.com/71_53_T10045849930_815_4_1_0_sdk-cpm/0210/M00/63/DD/ChR47FsVLGaAWBOHASxzl4Ukq5M88.flac?xcode=c7b8d15fe823e931504113e7bf412502b46e2b0", "size": 19, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Go Psycho Pt. 2", "artist": "Ultrasonic", "link": "http://audio01.dmhmusic.com/71_53_T10016106052_975_4_1_0_sdk-cpm/0105/M00/0A/88/ChR45Fl-Dr-AUlyBAcQH12uf-pI07.flac?xcode=511b260feee91d9050412a954fd11f51853bc9d", "size": 28, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u8ffd\u5149\u8005", "artist": "\u5c91\u5b81\u513f", "link": "http://audio01.dmhmusic.com/71_53_T10046204448_128_4_1_0_sdk-cpm/0210/M00/67/88/ChR47FsrhVyAS6DhADmXhpAYauc914.mp3?xcode=f16e9630210098ec5040d64d2ccb4cfe02bf011", "size": 4, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Secrets", "artist": "OneRepublic", "link": "http://audio01.dmhmusic.com/71_53_T10022747459_913_4_1_0_sdk-cpm/0105/M00/1A/CC/ChR45FmAKuSAT2c_AYpfHRqCm7478.flac?xcode=32b1911ef63acada5040f428760fac3d297980b", "size": 25, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Wonderland", "artist": "Wonderland", "link": "http://audio01.dmhmusic.com/71_53_T10016777864_741_4_1_0_sdk-cpm/0103/M00/0C/2A/ChR45Vl-Q_6AGhuOAxJ_L6SfCoc48.flac?xcode=74a7b62232f4bdc65041160e3f819479ada8d49", "size": 49, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fango", "artist": "Paolo Spaccamonti", "link": "http://audio01.dmhmusic.com/71_53_T10022468374_750_4_1_0_sdk-cpm/0103/M00/1A/1C/ChR45VmAFJWAQqeVAb8NFleIhOI11.flac?xcode=54457b7b3fef897b50411649ead10d0b584d7dc", "size": 28, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7406\u60f3\u4e09\u65ec", "artist": "\u9648\u9e3f\u5b87", "link": "http://audio01.dmhmusic.com/71_53_T10041015836_728_4_1_0_sdk-cpm/0210/M00/28/33/ChR47FpYl-yAOLp9ASUXOyi1Wuw02.flac?xcode=bf01764aa6139e4c5040bcff23038686ba27173", "size": 18, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Remix", "artist": "The Kid Daytona", "link": "http://audio01.dmhmusic.com/71_53_T10034403773_823_4_1_0_sdk-cpm/0104/M00/AD/5A/ChR45VnTSQ6Aa9WmAYbAsWSHkZA94.flac?xcode=197398990e99a9365040f1e355c0a3697b80784", "size": 24, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Vol.217 \u521b\u4f5c\u4eba\u7684\u6e3a\u5c0f\u548c\u4f1f\u5927\uff0f\u4e0a", "artist": "\u5927\u5185\u5bc6\u8c08", "link": null, "data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "9 Crimes", "artist": "InstaHit Crew", "link": "http://audio01.dmhmusic.com/71_53_T10025918461_636_4_1_0_sdk-cpm/0105/M00/22/AB/ChR45VmBPj6ACM1PAQR-a1wSW8M49.flac?xcode=d69edb281eb1366950411603c3ef626870102b6", "size": 16, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Remix", "artist": "The Kid Daytona", "link": "http://audio01.dmhmusic.com/71_53_T10034403773_823_4_1_0_sdk-cpm/0104/M00/AD/5A/ChR45VnTSQ6Aa9WmAYbAsWSHkZA94.flac?xcode=197398990e99a9365040f1e355c0a3697b80784", "size": 24, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Titanium (KCB Remix)", "artist": "David Guetta,Giorgio Tuinfort,Afrojack", "link": "http://audio01.dmhmusic.com/71_53_T10027136155_1076_4_1_0_sdk-cpm/0105/M00/25/B7/ChR45VmBpA6AAi1IAe8p03F6DTs59.flac?xcode=fe8250663f8f677b50411b960282475efbeb043", "size": 31, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u9001\u522b", "artist": "\u97e9\u7ea2", "link": "http://audio01.dmhmusic.com/71_53_T10045956132_128_4_1_0_sdk-cpm/0209/M00/63/8E/ChR47FsYRsWAI2dpADu3LIj5llw194.mp3?xcode=9b6c2fae9890ed085040f68fe45a708fc5c93c4", "size": 4, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Ready for It", "artist": "Mystic Roots Band", "link": "http://audio01.dmhmusic.com/71_53_T10025883071_943_4_1_0_sdk-cpm/0102/M00/22/95/ChR45VmBO4WALM3_AX2YNm07I0w66.flac?xcode=ffe148f64730121c504122ea4603339f256ce63", "size": 24, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Photograph", "artist": "Leaf & The Concepts", "link": "http://audio01.dmhmusic.com/71_53_T10031528545_817_4_1_0_sdk-cpm/0101/M00/30/B7/ChR45VmDISmATF6sAYy6yJ_PpSg71.flac?xcode=89a4eab756cd196a5040790ec17b46f5985ff19", "size": 25, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u65e7\u60c5\u7ef5\u7ef5", "artist": "\u65b0\u7231\u4e50\u4ea4\u54cd\u4e50\u56e2", "link": null, "data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "If You Were My Captain", "artist": "Big Summer", "link": "http://audio01.dmhmusic.com/71_53_T10027119947_904_4_1_0_sdk-cpm/0104/M00/25/AC/ChR45FmBonWADz05ANYE1JGf9eM53.flac?xcode=75504a9628c3dd07504105808ca3769c6f7ba89", "size": 13, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "You Won't Let Me", "artist": "Mike Viola,Rachael Yamagata", "link": "http://audio01.dmhmusic.com/71_53_T10030988414_128_4_1_0_sdk-cpm/0101/M00/91/D3/ChR45FmRP0CAa2S1ADPhzmeBa7o033.mp3?xcode=38bebff0d2e47db8504000d1776014e455a48d4", "size": 3, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Don't Wanna Live Forever", "artist": "The Riverdales", "link": "http://audio01.dmhmusic.com/71_53_T10043776020_994_4_1_0_sdk-cpm/0206/M00/45/EC/ChR47Fq8bwGAclnnAMOxFwf-G0808.flac?xcode=6cbb67d8b041334b5041118b6224c76f4221ff7", "size": 12, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Million Years Ago", "artist": "\u65b9\u5706", "link": null, "data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Send My Love (To Your New Lover)", "artist": "Hannah Dorman", "link": "http://audio01.dmhmusic.com/71_53_T10043737006_869_4_1_0_sdk-cpm/0207/M00/4B/3C/ChR47Fq5mOqAVUyTAVfM0el8Wic12.flac?xcode=8f73ff75109734a6504102193c049ebda049b1c", "size": 21, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Set Fire to the Rain", "artist": "St. Martin's Orchestral Academy Of Los Angeles", "link": "http://audio01.dmhmusic.com/71_53_T10024376829_544_4_1_0_sdk-cpm/0101/M00/1E/D4/ChR45VmAuO6AfzD7APsWpTTJJhw53.flac?xcode=901c740992ddbbdc50410da09250c8521f9e1d0", "size": 16, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "The Ocean", "artist": "Colvin Quarmby", "link": "http://audio01.dmhmusic.com/71_53_T10021474361_633_4_1_0_sdk-cpm/0105/M00/17/A7/ChR45Fl_vo-ABBcPAQRaS07nuVM61.flac?xcode=8c366d5f7da6e4e1504129f9ace49a026fd51f5", "size": 16, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Hard to Say I'm Sorry", "artist": "The Lovers", "link": "http://audio01.dmhmusic.com/71_53_T10037749590_692_4_1_0_sdk-cpm/0209/M00/5D/BA/ChR461sPfOmAGF1LATVtjy3IxUA34.flac?xcode=cf7d18bb221734c650411d22119b212d320fc4e", "size": 19, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Soldier", "artist": "Backstreet Boys", "link": null, "data": false}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "The Spectre", "artist": "Royal Trux", "link": "http://audio01.dmhmusic.com/71_53_T10042669383_638_4_1_0_sdk-cpm/0206/M00/36/49/ChR47FqVJMKAOH1_AJtRIH9TeTQ10.flac?xcode=879691ef24eb767750412222d9d9d300147d034", "size": 10, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Stitches", "artist": "Catch This Beat", "link": "http://audio01.dmhmusic.com/71_53_T10034273313_894_4_1_0_sdk-cpm/0103/M00/AC/EC/ChR45FnSoG2AVuGuAWOc96yUUqc41.flac?xcode=c73443879e69384f50405ab04f11ada510076fc", "size": 22, "data": true}
+2019-09-01 22:44:57 main.py:138 [INFO] 获取歌曲信息 {"songname": "Lights", "artist": "Jim Yosef", "link": "http://audio01.dmhmusic.com/71_53_T10012563678_1038_4_1_0_sdk-cpm/0105/M00/AF/85/ChR45FnVhFWABw9pAb3jP17S1nw98.flac?xcode=53ea5707e65ae88850410867532a8e0cc50cc62", "size": 28, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u88ab\u9a6f\u670d\u7684\u8c61", "artist": "\u8521\u5065\u96c5", "link": null, "data": false}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Jocelin", "artist": "Leddra Chapman", "link": "http://audio01.dmhmusic.com/71_53_T10019855117_128_4_1_0_sdk-cpm/0102/M00/59/94/ChR45FmL07WAa-8GAC5t4nDRF4w230.mp3?xcode=936f0f0325c7c2bc504019a77ef23961a9df307", "size": 3, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5c0f\u534a", "artist": "\u9648\u7c92", "link": "http://audio01.dmhmusic.com/71_53_T10045991216_128_4_1_0_sdk-cpm/0207/M00/7B/92/ChR461z86tSAKx30AEiissuSids044.mp3?xcode=f08d4168f251184f50407e06316cd2ae18c7feb", "size": 5, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Summertrain", "artist": "Sandy Coast", "link": "http://audio01.dmhmusic.com/71_53_T10026603633_128_4_1_0_sdk-cpm/0103/M00/7C/15/ChR45VmPJ9GAK1qAAC5Tw2eO7zQ789.mp3?xcode=e9d79fb88c4571be50405f3f98f2d0e2f34f5ff", "size": 3, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Love You Like A Love Song", "artist": "\u5468\u6df1", "link": null, "data": false}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Born to Do", "artist": "Songtradr", "link": "http://audio01.dmhmusic.com/71_53_T10041238188_946_4_1_0_sdk-cpm/0206/M00/2D/0D/ChR47FpmwK-AGTmtAZ09yUYbORo65.flac?xcode=af79d5afb04d38565041175499caa41bf23b4bc", "size": 26, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Glad You Came", "artist": "Party Hit Kings", "link": "http://audio01.dmhmusic.com/71_53_T10023248445_995_4_1_0_sdk-cpm/0104/M00/1C/09/ChR45VmAVaOAeUhvAXA0YQY1yww49.flac?xcode=107c29be2bf685fa504127f6106e955f547ef8b", "size": 23, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Here With You", "artist": "The Markus Band", "link": "http://audio01.dmhmusic.com/71_53_T10042601118_1026_4_1_0_sdk-cpm/0209/M00/3F/B3/ChR47FqTmjuATt0kAhakCTXe9aQ08.flac?xcode=90cd6db4d86dc271504110c62c61ec9fe6f1c33", "size": 33, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Treasure", "artist": "Mars Band", "link": "http://audio01.dmhmusic.com/71_53_T10039469047_930_4_1_0_sdk-cpm/0206/M00/14/93/ChR461n4VxyAK_QgAT2As_PDLzE52.flac?xcode=a9dde91c0e408d33504108a077b4bc9ec4ce637", "size": 20, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Just Like Fire", "artist": "Sound Nation", "link": "http://audio01.dmhmusic.com/71_53_T10043920217_920_4_1_0_sdk-cpm/0210/M00/4F/3C/ChR47FrD_4aAZNDRAYJoa7CoAfE00.flac?xcode=3016321d6f2afea4504111e95b54e2c4c488f27", "size": 24, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Something Just Like This", "artist": "Urban Sound Collective", "link": "http://audio01.dmhmusic.com/71_53_T10035655612_884_4_1_0_sdk-cpm/0101/M00/BD/8C/ChR45VngiD6AX3A1AaGmooNAz9g71.flac?xcode=534fa4e4ffb9393a5040dace7b8556e2fb11306", "size": 26, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "This Is What You Came For", "artist": "Michelle Simonal", "link": "http://audio01.dmhmusic.com/71_53_T10034696771_835_4_1_0_sdk-cpm/0209/M00/61/AF/ChR461sUfC6AcYo_ASZTMXkN7YQ45.flac?xcode=15b3217106bebe7c504117557784bdd98e3aa1b", "size": 18, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Tragoudi tou gamou", "artist": "Vasilis Skoulas", "link": "http://audio01.dmhmusic.com/71_53_T10013709476_860_4_1_0_sdk-cpm/0105/M00/04/B8/ChR45Fl9TJ6AYP4nAN2DCdDsTfg97.flac?xcode=2cd81f44118f39d3504127d3480f49006fd0213", "size": 14, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Please Don't Go", "artist": "Pop Mania", "link": "http://audio01.dmhmusic.com/71_53_T10034764353_908_4_1_0_sdk-cpm/0104/M00/AE/99/ChR45VnU_v6ASCynAW3cY3lVf_465.flac?xcode=d85c010a952f00c350407bd6c43d228718d91a4", "size": 23, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Battle Symphony", "artist": "L.I.", "link": "http://audio01.dmhmusic.com/71_53_T10022639805_949_4_1_0_sdk-cpm/0104/M00/1A/88/ChR45VmAIdaAWytCAZxqx7-2Roc81.flac?xcode=3eb92760f500ab2650410365c8fd403961fd1e9", "size": 26, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u521a\u521a\u597d", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10040589079_128_4_1_0_sdk-cpm/0207/M00/13/D1/ChR47Fn0hCSAUBTcAD0qxWybGDE326.mp3?xcode=e258e36160cac8bf504060c539f93649e521852", "size": 4, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Shape Of You", "artist": "Ed Sheeran", "link": "http://audio01.dmhmusic.com/71_53_T10043671243_128_4_1_0_sdk-cpm/0210/M00/4C/E4/ChR47Fq6LEaAAvwFADoJUMaMUcg430.mp3?xcode=e2d243e9b07e81575040ac0d3fb7c1ba7154785", "size": 4, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Right Now (Na Na Na)", "artist": "R n B Allstars", "link": "http://audio01.dmhmusic.com/71_53_T10025024436_940_4_1_0_sdk-cpm/0102/M00/2C/09/ChR45FmCfGOAYYNzAbXBFPoqZn088.flac?xcode=b8f0cb9c9b3fdc72504129a6d3bfdca79bf9781", "size": 27, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Am You", "artist": "Iamme Candlewick", "link": "http://audio01.dmhmusic.com/71_53_T10025537268_128_4_1_0_sdk-cpm/0104/M00/76/AB/ChR45FmOoXSACbKUAD2EvmwzfwY676.mp3?xcode=1ae06a3c3dfa1c905041138ed11d24bd9c2972e", "size": 4, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Lone Ranger", "artist": "Paul Cuddeford,L Caminero", "link": "http://audio01.dmhmusic.com/71_53_T10041572200_671_4_1_0_sdk-cpm/0208/M00/35/F9/ChR47FpxfqOAUUhHALs4B4QcBCQ70.flac?xcode=d138c33b270cda4d50411694bc69d1fa77e5fcc", "size": 12, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u6700\u73cd\u8d35", "artist": "\u5f20\u5b66\u53cb,\u9ad8\u6167\u541b", "link": "http://audio01.dmhmusic.com/71_53_T10041166924_128_4_1_0_sdk-cpm/0209/M00/2E/5F/ChR461pkbbGAHhmwAEcAQsU7gT8024.mp3?xcode=a39df3d5316da46e50405b469bbb78f52a3484e", "size": 4, "data": true}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "Legacy", "artist": "AK", "link": null, "data": false}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6708\u5149\u6563\u6b65", "artist": "\u4ee4\u97f3\u4e4b\u7ffc", "link": null, "data": false}
+2019-09-01 22:44:58 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u544a\u767d\u6c14\u7403", "artist": "\u623f\u541b\u82f1", "link": "http://audio01.dmhmusic.com/71_53_T10047706493_128_4_1_0_sdk-cpm/0210/M00/7A/1D/ChR47FvN9VqAZpE1ADS2BbKKafU134.mp3?xcode=74bef5fc436220975040649b63065c3e60e14a2", "size": 3, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Starboy", "artist": "Vibe2Vibe", "link": "http://audio01.dmhmusic.com/71_53_T10038358640_877_4_1_0_sdk-cpm/0101/M00/C6/AE/ChR45FnnRQKAF3h0AYkeDjhz0ZA35.flac?xcode=94ef4341406f52c15041226e94db8228ab87f34", "size": 25, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5357\u65b9\u59d1\u5a18", "artist": "\u590f\u5c0f\u864e", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Color Blind feat. Leon Monroe (Sean Smith & Spike Rebel Smooth Agent Mix)", "artist": "Matteo Candura", "link": "http://audio01.dmhmusic.com/71_53_T10041031872_950_4_1_0_sdk-cpm/0206/M00/29/FF/ChR47FpYopyAA92NAmfG8gIYeH411.flac?xcode=dc9a758d2ba9d27e504121d040c895aa972a97b", "size": 38, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7ea2\u8272\u9ad8\u8ddf\u978b", "artist": "\u8521\u5065\u96c5", "link": "http://audio01.dmhmusic.com/71_53_T10038902299_128_4_1_0_sdk-cpm/0207/M00/13/79/ChR47Fny8OGAGr4XADJ0e9TE1do371.mp3?xcode=4f32be6ca8d4a6b65040a4904b34d20a92c6d85", "size": 3, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "You're Not Alone", "artist": "Kristofer Greczula", "link": "http://audio01.dmhmusic.com/71_53_T10040616741_620_4_1_0_sdk-cpm/0207/M00/28/6F/ChR461pEkGaAC2HmAQuVhLQ4LxY82.flac?xcode=d317caf4f25af158504127f101421746cfb71ae", "size": 17, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Nothing On You", "artist": "Music for Quiet Moments", "link": "http://audio01.dmhmusic.com/71_53_T10043141324_442_4_1_0_sdk-cpm/0206/M00/3C/82/ChR461qncaqAXEJEALUhVqYFNbY57.flac?xcode=8115f729638d025350410e7dc31fe0eae05d88e", "size": 11, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u51e1\u4eba\u6b4c", "artist": "\u674e\u5b97\u76db", "link": "http://audio01.dmhmusic.com/71_53_T10041182665_1411_4_1_0_sdk-cpm/0207/M00/30/DB/ChR461pkraqAVcy6AYmQAzA_6ZE93.flac?xcode=b32937e83899dc4850411bbe8a98588320770ae", "size": 25, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e03\u6708\u4e0a", "artist": "Jam", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6ca1\u79bb\u5f00\u8fc7", "artist": "\u6797\u5fd7\u70ab", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5979\u8bf4", "artist": "\u6797\u4fca\u6770", "link": "http://audio01.dmhmusic.com/71_53_T10038966214_783_4_1_0_sdk-cpm/0207/M00/12/C1/ChR461nwA06AMIHXAd_XsiKElYc13.flac?xcode=e1c3d1c20e00358350407e2e9a75eaca529ac79", "size": 30, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Closer", "artist": "Attraction", "link": "http://audio01.dmhmusic.com/71_53_T10038984486_128_4_1_0_sdk-cpm/0208/M00/14/F9/ChR47Fn14huACoIaAEtgUlQBQRw844.mp3?xcode=e6aa785a6c562a0f50400276f4150487327db07", "size": 5, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6ce1\u6cab", "artist": "\u7a7a\u767d", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "HELLO", "artist": "\u963f\u675c", "link": "http://audio01.dmhmusic.com/71_53_T10038942414_128_4_1_0_sdk-cpm/0207/M00/13/CA/ChR461n0ZLmACwclAD07GRuiF-0048.mp3?xcode=3c4bd6d42e6e7c785040c2d0e3a1fca8c21b8d8", "size": 4, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Animals", "artist": "Dance Hits 2014", "link": "http://audio01.dmhmusic.com/71_53_T10015959875_973_4_1_0_sdk-cpm/0101/M00/0A/2D/ChR45Vl-A0-AbgM-AaqtAOsGhj090.flac?xcode=a8a00215e8c3abfd50410dadf8819f2275acf48", "size": 27, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u591c\u7a7a\u4e2d\u6700\u4eae\u7684\u661f", "artist": "\u9003\u8dd1\u8ba1\u5212", "link": "http://audio01.dmhmusic.com/71_53_T10047709618_128_4_1_0_sdk-cpm/0210/M00/7A/46/ChR461vOBRCAKVOeAD2djdxHDfM669.mp3?xcode=45ce5c128b7aef12503fdfc8d5d99e795e4702b", "size": 4, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Love Yourself", "artist": "Workout Remix Factory", "link": "http://audio01.dmhmusic.com/71_53_T10044727113_855_4_1_0_sdk-cpm/0208/M00/5B/34/ChR461sBw1SAba9RAcfjijdcPsY21.flac?xcode=6d08712fb24d81bc504118d800a0b9ad9366764", "size": 28, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Someone Like You", "artist": "Judson Mancebo", "link": "http://audio01.dmhmusic.com/71_53_T10034327069_804_4_1_0_sdk-cpm/0102/M00/AD/1A/ChR45VnS5_KAEi30AMryLmN1_f842.flac?xcode=03ae9fe4ef674fcf5040928ee171deba08b1798", "size": 13, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Make You Feel My Love", "artist": "Rachel Drope", "link": "http://audio01.dmhmusic.com/71_53_T10023254418_687_4_1_0_sdk-cpm/0101/M00/1C/0D/ChR45FmAVkiALhlIAQyvFaUoT_s03.flac?xcode=cf73fb73474c9a1b50410d245070b4573952cf5", "size": 17, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u504f\u7231", "artist": "\u7334\u7eb8\u541bKyler", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Stan", "artist": "The Lounge Brigade", "link": "http://audio01.dmhmusic.com/71_53_T10041023426_924_4_1_0_sdk-cpm/0209/M00/2A/29/ChR47FpYnQaAeSNbAWBvkQSIjSQ51.flac?xcode=28b72fbdf8f86fb95041291c0555c525c82f7ac", "size": 22, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u628a\u6211\u704c\u9189", "artist": "\u9648\u6d01\u4eea", "link": "http://audio01.dmhmusic.com/71_53_T10040398595_1411_4_1_0_sdk-cpm/0210/M00/1D/32/ChR461oc1beAC-UlAduWN3A-MbI71.flac?xcode=11f372471e49b7635040b4be8f3a000ccf8b61f", "size": 30, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "I Gotta Feeling", "artist": "The Black Eyed Peas", "link": "http://audio01.dmhmusic.com/71_53_T10034231199_976_4_1_0_sdk-cpm/0105/M00/AC/C8/ChR45FnSa8yAB0pkAhwwty1630k63.flac?xcode=ea44d39418e04b795040bccef7ee0850023bf7a", "size": 34, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "What about Now", "artist": "Frankmwangy", "link": "http://audio01.dmhmusic.com/71_53_T10047657725_724_4_1_0_sdk-cpm/0207/M00/73/70/ChR461vKaq6AcIo2AN1ec94vXLM98.flac?xcode=d1364e36ab0cc03c50411d89d0c6421cd50d869", "size": 14, "data": true}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "Main", "artist": "EasyB", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "In Solitude", "artist": "\u5ddd\u4e0a\u3055\u3068\u307f", "link": null, "data": false}
+2019-09-01 22:44:59 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5982\u679c\u7231", "artist": "\u989c\u7fbd", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u51dd\u97f3-\u997f\u72fc\u4f20\u8bf4", "artist": "\u51dd\u97f3\u266a", "link": "http://audio01.dmhmusic.com/71_53_T10047696275_128_4_1_0_sdk-cpm/0209/M00/72/D9/ChR47FvN73mAEfDuAEJHFw_NnzQ413.mp3?xcode=1b779c1add77f97150406e99983275876182bb0", "size": 4, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5979\u6765\u542c\u6211\u7684\u6f14\u5531\u4f1a", "artist": "\u5085\u8587,\u9ec4\u4e2d\u539f", "link": "http://audio01.dmhmusic.com/71_53_T10038823543_128_4_1_0_sdk-cpm/0207/M00/12/DD/ChR461nwD6mAJTfdAEjH1bCb7lQ029.mp3?xcode=6c1ece8bc2da42cf50403c2e7b7bf7225527c63", "size": 5, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6162\u6162", "artist": "\u9b4f\u4f73\u827a", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u674e\u9999\u5170", "artist": "Dreamy Lam", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u7684\u80cc\u5305", "artist": "\u80e1\u5f66\u658c", "link": "http://audio01.dmhmusic.com/71_53_T10046031517_128_4_1_0_sdk-cpm/0207/M00/64/69/ChR47FsY68KAEUDGAEa0JVchjq4657.mp3?xcode=6658b4471c1f6c2e50400a6d132574a9dfedb4e", "size": 4, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u518d\u4e5f\u4e0d\u89c1", "artist": "\u674e\u6d6a", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "IF YOU", "artist": "\u5f20\u8d24\u8d6b", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "MC\u78ca\u5b50 - \u9065\u8fdc\u7684\u5979", "artist": "\u7fa4\u661f", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "The Phoenix", "artist": "Christian Larsen", "link": "http://audio01.dmhmusic.com/71_53_T10048148599_758_4_1_0_sdk-cpm/0208/M00/7C/E9/ChR47Fvcij6AGHjmAY6VvzRw1q099.flac?xcode=8dfd53171ca66c97504104840d432d8881ffbcf", "size": 25, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5306\u5306\u90a3\u5e74", "artist": "\u9ed1\u9e2d\u5b50", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "Unstoppable", "artist": "Ayah Marar", "link": "http://audio01.dmhmusic.com/71_53_T10017922944_1027_4_1_0_sdk-cpm/0105/M00/0E/F3/ChR45Fl-o0GAAntPAYNX4ZXVfls66.flac?xcode=b8e759ce240e9fe250411e77d847f7bc94feedb", "size": 24, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4f60\u8fd8\u8981\u6211\u600e\u6837", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10038986648_1536_4_1_0_sdk-cpm/0208/M00/14/FD/ChR461n19q6AAHm2AXoqbqHL9GE87.flac?xcode=97d801f5cb83ed465040771befbeafe9787da05", "size": 24, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "Try", "artist": "Britneylee", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e11\u516b\u602a", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10038986645_128_4_1_0_sdk-cpm/0209/M00/12/0A/ChR461n19paASZ2pAD3PgL7UiZ8440.mp3?xcode=4b974e66964985c25040574d707eaccdf4d4e89", "size": 4, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7ec5\u58eb", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10040589081_1411_4_1_0_sdk-cpm/0210/M00/11/5F/ChR47Fn0hE-AYpwmAeO02JNP8iU16.flac?xcode=c60d3666bf1a5fce504051e018f100ff4600458", "size": 30, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "7 Years", "artist": "Marcela Mangabeira", "link": "http://audio01.dmhmusic.com/71_53_T10034280569_802_4_1_0_sdk-cpm/0105/M00/AC/F2/ChR45VnSqXeAaM9cAVPorln0JDU95.flac?xcode=25974e25c7f1965d50411c86772d4cf18005fdb", "size": 21, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u7ea2\u73ab\u7470", "artist": "\u9648\u5955\u8fc5", "link": "http://audio01.dmhmusic.com/71_53_T10046201601_128_4_1_0_sdk-cpm/0208/M00/69/E6/ChR47FsrcXKAb1yBADsYVcz3mxE224.mp3?xcode=3bb5f477fb772998503fdc18e3506881aae90e3", "size": 4, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6ca1\u90a3\u4e48\u7b80\u5355", "artist": "\u80e1\u5f66\u658c", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6a21\u7279", "artist": "\u674e\u8bfa\u6b23", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "Booty music", "artist": "Lalmirch", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "Fantasy", "artist": "Masafumi Komatsu", "link": "http://audio01.dmhmusic.com/71_53_T10016722673_483_4_1_0_sdk-cpm/0101/M00/0C/07/ChR45Vl-P1mAZtVgARbQP9yLigA65.flac?xcode=b067d03775421f6250411aec3b27fd99b3a5e72", "size": 17, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "The", "artist": "Krunch", "link": "http://audio01.dmhmusic.com/71_53_T10043073090_1004_4_1_0_sdk-cpm/0210/M00/45/8A/ChR47FqkDYuASFd3A357FxrjSkE02.flac?xcode=98f0f537a9bab484504126845573e6c6d3fc7ac", "size": 56, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6211\u7684\u5929\u7a7a", "artist": "forever\u706c\u97f3\u4e50\u901a\u7f09\u72af", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "TELL ME WHY", "artist": "B1A4", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "The Nights", "artist": "Dirty Sound System,Wings & Rider", "link": "http://audio01.dmhmusic.com/71_53_T10013403117_1158_4_1_0_sdk-cpm/0103/M00/03/FA/ChR45Vl9NSSAQFUPAZkxC-S7ZaA56.flac?xcode=d424184caad181545040e08f76e3e9661c01df4", "size": 26, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "Satellites", "artist": "Oscar Del Amor,Klaypex", "link": "http://audio01.dmhmusic.com/71_53_T10018621976_1044_4_1_0_sdk-cpm/0102/M00/10/A7/ChR45Vl-3JaASfbyAdkoO3eeCns74.flac?xcode=ed84ed2ffa47746d504101a1a6cdedf22c09eca", "size": 30, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u597d\u4e45\u4e0d\u89c1", "artist": "\u5f71\u89c6\u539f\u58f0", "link": null, "data": false}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u4e0d\u8981\u8bf4\u8bdd", "artist": "\u9648\u5955\u8fc5", "link": "http://audio01.dmhmusic.com/71_53_T10046201598_128_4_1_0_sdk-cpm/0208/M00/69/E6/ChR461srcVuAZpnhAEWuio_A6IM676.mp3?xcode=0b9247cd15ac956a504042c022d696f7165e8ad", "size": 4, "data": true}
+2019-09-01 22:45:00 main.py:138 [INFO] 获取歌曲信息 {"songname": "You Are My Everything", "artist": "Pansil", "link": "http://audio01.dmhmusic.com/71_53_T10044895378_1094_4_1_0_sdk-cpm/0206/M00/60/D2/ChR47FsFNUyABUTFAgE-h3dsF1s32.flac?xcode=3c076de047bd6aac504073dc568c2e5c8f6ef49", "size": 32, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "When I Was Your Man", "artist": "Andrew Wyatt,Philip Lawrence,Ari Levine,Bruno Mars,The Party Machines", "link": "http://audio01.dmhmusic.com/71_53_T10018407514_892_4_1_0_sdk-cpm/0103/M00/10/21/ChR45Vl-y9iAXzS6AWmBx6sFftc07.flac?xcode=32c3422f88b113d35040b80f2feb821ce009e7d", "size": 23, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "Because of You", "artist": "Marcela Mangabeira", "link": "http://audio01.dmhmusic.com/71_53_T10034280568_780_4_1_0_sdk-cpm/0103/M00/AC/F2/ChR45FnSqW-AAXArAT95tecMjc480.flac?xcode=a21284b3d7191758504113cb60ffc6a604e8ae0", "size": 20, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u6f14\u5458", "artist": "\u859b\u4e4b\u8c26", "link": "http://audio01.dmhmusic.com/71_53_T10040589078_128_4_1_0_sdk-cpm/0210/M00/11/5F/ChR461n0hDaATFisAD_LbEwpXXo998.mp3?xcode=a2dac756c197754a50404fe8aab16795784cd2f", "size": 4, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "The End", "artist": "Jayna Feldman,Amanda Campos,Lauren Craig,Autumn Pike", "link": "http://audio01.dmhmusic.com/71_53_T10026404615_722_4_1_0_sdk-cpm/0101/M00/23/E1/ChR45FmBZAuATLDCASOqoHnD5sw51.flac?xcode=1a26cb2e84b8ea7c50411f16e95a948dc5ed950", "size": 18, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "My House", "artist": "Richard Villa", "link": null, "data": false}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "Faded (Instrumental)", "artist": "S.D. Batish, Chorus", "link": null, "data": false}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "FourFiveSeconds", "artist": "Ella Rammelt,Samuel Bate", "link": "http://audio01.dmhmusic.com/71_53_T10042296192_863_4_1_0_sdk-cpm/0208/M00/3E/BD/ChR461qJN-2ANgmBATG6hMemjtE13.flac?xcode=7753e7b856923bc05041299df8ca3a92a701533", "size": 19, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "What Are Words", "artist": "Jukebox Heaven", "link": "http://audio01.dmhmusic.com/71_53_T10026912742_803_4_1_0_sdk-cpm/0104/M00/25/27/ChR45VmBkB6AfDdaARzbfSDHJTI60.flac?xcode=0091be25761bcc60504128238eebde9d0e34603", "size": 18, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5982\u679c\u8fd9\u90fd\u4e0d\u7b97\u7231", "artist": "\u4f0d\u4f70 & China Blue", "link": "http://audio01.dmhmusic.com/71_53_T10041186512_1411_4_1_0_sdk-cpm/0208/M00/31/BA/ChR47FplNeeAeKAeAZER9sYGBuU56.flac?xcode=e3662afb407cc8b15040ef542bd2e2d10ae9aee", "size": 25, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "\u5fc3\u5982\u5200\u5272", "artist": "\u6587\u5b81\u9759", "link": "http://audio01.dmhmusic.com/71_53_T10027025927_828_4_1_0_sdk-cpm/0101/M00/25/70/ChR45FmBmh-AZDnvAjJKUDotlFc53.flac?xcode=7295d419b609815e50410dad614e4e5af1c64f9", "size": 35, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "Sugar", "artist": "The Karaoke Channel", "link": "http://audio01.dmhmusic.com/71_53_T10012985157_128_4_1_0_sdk-cpm/0102/M00/98/B5/ChR45FmR9_eAfLJAADkKn_ad1P4100.mp3?xcode=5107b4e72e43b10a50409e9633c7f086494e49b", "size": 4, "data": true}
+2019-09-01 22:45:01 main.py:138 [INFO] 获取歌曲信息 {"songname": "New Divide", "artist": "Linkin Park,University of Oklahoma Marching Band,University of Oklahoma Marching Band,Brian A. Britt", "link": "http://audio01.dmhmusic.com/71_53_T10012866689_862_4_1_0_sdk-cpm/0105/M00/02/AC/ChR45Vl9DDyAOfloALEBqeZ01Nc74.flac?xcode=118e4c219bd274cc504076090674a8825e9e915", "size": 11, "data": true}
+2019-09-01 22:45:01 main.py:191 [INFO] 获取歌曲信息完成，开始下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\再见了湘西-MC尘缘.flac
+2019-09-01 22:45:01 main.py:146 [INFO] 当真就好-陈淑桦,张国荣 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:146 [INFO] Victory-Claudio Gizzi,Stefano Torossi 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Malibu Nights-Binky Womack,Rush Hour.flac
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\There Will Never Be Another You (Live)-George Benson.flac
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Sign Of The Times-Quiet Riot.flac
+2019-09-01 22:45:01 main.py:146 [INFO] 黑武士-林俊杰 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\River-Heath.flac
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Supermarket Flowers (Instrumental Version)-The Backing Baristas.flac
+2019-09-01 22:45:01 main.py:146 [INFO] For-Below Submarine 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Won't Go Home Without You-The Karaoke Channel.flac
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Click Clack-Monotonia Crew.flac
+2019-09-01 22:45:01 main.py:146 [INFO] Wake Up And Live-Chick Webb 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Know Racism Is Cool Again, But...-Dave Foley.flac
+2019-09-01 22:45:01 main.py:146 [INFO] 越来越不懂-蔡健雅 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac
+2019-09-01 22:45:16 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Supermarket Flowers (Instrumental Version)-The Backing Baristas.flac 
+2019-09-01 22:45:16 main.py:146 [INFO] 默-姜小白 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:16 main.py:146 [INFO] 男孩-杨永聪 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:16 main.py:146 [INFO] 九爷出山-山水组合 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:16 main.py:146 [INFO] Hall of Fame-Future Hitmakers 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:16 main.py:146 [INFO] Closer-Attraction 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:45:16 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Can't Take My Eyes off You-Kotto.flac
+2019-09-01 22:45:37 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac 
+2019-09-01 22:45:37 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Cruisin-Maxxess.flac
+2019-09-01 22:45:47 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Won't Go Home Without You-The Karaoke Channel.flac 
+2019-09-01 22:45:47 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What I've Done-Hollywood Session Group.flac
+2019-09-01 22:45:54 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Click Clack-Monotonia Crew.flac 
+2019-09-01 22:45:54 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What Makes You Beautiful-Future Hitmakers.flac
+2019-09-01 22:45:57 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\River-Heath.flac 
+2019-09-01 22:45:57 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Viva La Vida-Coldplay.flac
+2019-09-01 22:45:57 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\再见了湘西-MC尘缘.flac 
+2019-09-01 22:45:57 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Waiting for Love-Dance Music Decade.flac
+2019-09-01 22:46:02 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Can't Take My Eyes off You-Kotto.flac 
+2019-09-01 22:46:02 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Tik Tok -Cardio Workout Crew.flac
+2019-09-01 22:46:03 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Malibu Nights-Binky Womack,Rush Hour.flac 
+2019-09-01 22:46:03 main.py:146 [INFO] As Long As You Love Me-The Maytones 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:46:03 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Air-Owen Richards.flac
+2019-09-01 22:46:08 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Know Racism Is Cool Again, But...-Dave Foley.flac 
+2019-09-01 22:46:08 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\There's Nothing Holdin' Me Back-Giona Guidi.flac
+2019-09-01 22:46:14 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Sign Of The Times-Quiet Riot.flac 
+2019-09-01 22:46:14 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Can't Stop the Feeling!-Meg Birch.flac
+2019-09-01 22:46:25 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What I've Done-Hollywood Session Group.flac 
+2019-09-01 22:46:25 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Yourself-Alma Thomas.flac
+2019-09-01 22:46:29 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What Makes You Beautiful-Future Hitmakers.flac 
+2019-09-01 22:46:29 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fire-Lee Morgan.flac
+2019-09-01 22:46:32 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Air-Owen Richards.flac 
+2019-09-01 22:46:32 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Empire State of Mind-The Karaoke Channel.flac
+2019-09-01 22:46:36 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Viva La Vida-Coldplay.flac 
+2019-09-01 22:46:36 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Talking to the Moon-The Hit Crew.flac
+2019-09-01 22:46:36 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Waiting for Love-Dance Music Decade.flac 
+2019-09-01 22:46:36 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Stronger (What Doesn't Kill You)-Future Hitmakers.flac
+2019-09-01 22:46:41 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Shooting Stars-Will Tang.flac
+2019-09-01 22:46:44 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\There's Nothing Holdin' Me Back-Giona Guidi.flac 
+2019-09-01 22:46:44 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Thinking out Loud-Sublime Reggae Kings.flac
+2019-09-01 22:46:49 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Cruisin-Maxxess.flac 
+2019-09-01 22:46:49 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac
+2019-09-01 22:46:49 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Tik Tok -Cardio Workout Crew.flac 
+2019-09-01 22:46:49 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Sound Of Silence-Paul Simon,Art Garfunkel,Brendan O'Neil.flac
+2019-09-01 22:46:56 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Can't Stop the Feeling!-Meg Birch.flac 
+2019-09-01 22:46:56 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Relax, Take It Easy-The Hit Co..flac
+2019-09-01 22:47:09 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Shooting Stars-Will Tang.flac 
+2019-09-01 22:47:09 main.py:146 [INFO] Payphone-Maroon 5 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:09 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac
+2019-09-01 22:47:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Yourself-Alma Thomas.flac 
+2019-09-01 22:47:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Maps-LASERS.flac
+2019-09-01 22:47:14 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\There Will Never Be Another You (Live)-George Benson.flac 
+2019-09-01 22:47:14 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Space Bound-Hip Hop Hitmakers.flac
+2019-09-01 22:47:21 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Stronger (What Doesn't Kill You)-Future Hitmakers.flac 
+2019-09-01 22:47:21 main.py:146 [INFO] 平凡之路-何威霖,许文哲 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:21 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\It Keeps Reminding Me-The Velvelettes.flac
+2019-09-01 22:47:28 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fire-Lee Morgan.flac 
+2019-09-01 22:47:28 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Whistle-Various Artists.flac
+2019-09-01 22:47:30 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac 
+2019-09-01 22:47:30 main.py:146 [INFO] See You Again-Wizard See,Clone 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:30 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\We Are Young-Pop Classics.flac
+2019-09-01 22:47:32 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Empire State of Mind-The Karaoke Channel.flac 
+2019-09-01 22:47:32 main.py:146 [INFO] You Raise Me Up-Celtic Woman 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:32 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\We Don't Talk Anymore-Jean_Pierre Danel.flac
+2019-09-01 22:47:34 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Thinking out Loud-Sublime Reggae Kings.flac 
+2019-09-01 22:47:34 main.py:146 [INFO] 演员-薛之谦 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:34 main.py:146 [INFO] 真的爱你-Beyond 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:47:34 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\New Thang-Urban Madness.flac
+2019-09-01 22:47:35 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac 
+2019-09-01 22:47:35 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Not afraid-Made famous by Eminem.flac
+2019-09-01 22:47:41 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Relax, Take It Easy-The Hit Co..flac 
+2019-09-01 22:47:41 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\La Nevada (Theme) [feat. Johnny Coles, Curtis Fuller & Steve Lacy]-Gil Evans.flac
+2019-09-01 22:47:55 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Sound Of Silence-Paul Simon,Art Garfunkel,Brendan O'Neil.flac 
+2019-09-01 22:47:55 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Numb-Ameritz Tribute Club.flac
+2019-09-01 22:47:58 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Maps-LASERS.flac 
+2019-09-01 22:47:58 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lucky Strike-Billy Lincoln,Kat Green,Moses Truzman.flac
+2019-09-01 22:47:58 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Not afraid-Made famous by Eminem.flac 
+2019-09-01 22:47:58 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Me Like You Do-Flatline and Bass.flac
+2019-09-01 22:48:00 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\It Keeps Reminding Me-The Velvelettes.flac 
+2019-09-01 22:48:00 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\To Be Loved By You-Colin B.flac
+2019-09-01 22:48:13 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Whistle-Various Artists.flac 
+2019-09-01 22:48:13 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Mockingbird-Zee Avi.flac
+2019-09-01 22:48:17 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Me Like You Do-Flatline and Bass.flac 
+2019-09-01 22:48:17 main.py:146 [INFO] Me and My Broken Heart-Carl Smith 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:48:17 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Let Me Love You-Shaggy,DJ Rebel,Mohombi.flac
+2019-09-01 22:48:21 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\New Thang-Urban Madness.flac 
+2019-09-01 22:48:21 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Let Me Love You-Shaggy,DJ Rebel,Mohombi.flac
+2019-09-01 22:48:21 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\We Are Young-Pop Classics.flac 
+2019-09-01 22:48:21 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lights-Jim Yosef.flac
+2019-09-01 22:48:22 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\We Don't Talk Anymore-Jean_Pierre Danel.flac 
+2019-09-01 22:48:22 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Light-Sam Koxx.flac
+2019-09-01 22:48:25 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Space Bound-Hip Hop Hitmakers.flac 
+2019-09-01 22:48:25 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lighters-DJ Covers.flac
+2019-09-01 22:48:28 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lucky Strike-Billy Lincoln,Kat Green,Moses Truzman.flac 
+2019-09-01 22:48:28 main.py:146 [INFO] 南山南-马頔 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:48:28 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Can't Get Enough-Tomorrow People.flac
+2019-09-01 22:48:33 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\To Be Loved By You-Colin B.flac 
+2019-09-01 22:48:33 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Brighter-Supersub x Blackshadow.flac
+2019-09-01 22:48:42 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Mockingbird-Zee Avi.flac 
+2019-09-01 22:48:42 main.py:146 [INFO] 海阔天空-Beyond 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:48:42 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\一半-薛之谦.flac
+2019-09-01 22:48:42 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Numb-Ameritz Tribute Club.flac 
+2019-09-01 22:48:42 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Got You (I Feel Good)-The Hit Co..flac
+2019-09-01 22:48:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Let Me Love You-Shaggy,DJ Rebel,Mohombi.flac 
+2019-09-01 22:48:46 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Happy (From %22Despicable Me 2%22) [Instrumental Version]-Hollywood Movie Theme Orchestra.flac
+2019-09-01 22:49:10 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\La Nevada (Theme) [feat. Johnny Coles, Curtis Fuller & Steve Lacy]-Gil Evans.flac 
+2019-09-01 22:49:10 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Five Hours (Originally Performed By Deorro) [Karaoke Version]-UPH Karaoke.flac
+2019-09-01 22:49:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Light-Sam Koxx.flac 
+2019-09-01 22:49:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wrecking Ball-Network Music Ensemble.flac
+2019-09-01 22:49:15 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Happy (From %22Despicable Me 2%22) [Instrumental Version]-Hollywood Movie Theme Orchestra.flac 
+2019-09-01 22:49:15 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Don't Let Me Down-Eve St. Jones.flac
+2019-09-01 22:49:20 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Got You (I Feel Good)-The Hit Co..flac 
+2019-09-01 22:49:20 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac
+2019-09-01 22:49:22 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Let Me Love You-Shaggy,DJ Rebel,Mohombi.flac 
+2019-09-01 22:49:22 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Die Young-Cairo Knife Fight.flac
+2019-09-01 22:49:24 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Can't Get Enough-Tomorrow People.flac 
+2019-09-01 22:49:24 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fireflies-Lights & Motion.flac
+2019-09-01 22:49:27 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Brighter-Supersub x Blackshadow.flac 
+2019-09-01 22:49:27 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Faded-The Harmony Group,Marta Espinosa.flac
+2019-09-01 22:49:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lighters-DJ Covers.flac 
+2019-09-01 22:49:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Demons-Imagine Dragons.flac
+2019-09-01 22:49:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lights-Jim Yosef.flac 
+2019-09-01 22:49:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wicked Wonderland-Let The Music Play.flac
+2019-09-01 22:49:38 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Don't Let Me Down-Eve St. Jones.flac 
+2019-09-01 22:49:38 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Where'd You Go-R7CKY.flac
+2019-09-01 22:49:40 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wrecking Ball-Network Music Ensemble.flac 
+2019-09-01 22:49:40 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\That Girl-Rasta B..flac
+2019-09-01 22:50:03 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Where'd You Go-R7CKY.flac 
+2019-09-01 22:50:03 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\爱是永恒-古巨基.flac
+2019-09-01 22:50:04 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac 
+2019-09-01 22:50:04 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\月半小夜曲-张穆庭.flac
+2019-09-01 22:50:15 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Demons-Imagine Dragons.flac 
+2019-09-01 22:50:15 main.py:146 [INFO] 爱拼才会赢-草蜢 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:50:15 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Catch My Breath-Kelly Clarkson,Eric Olson,The Party Machines,Jason Halbert.flac
+2019-09-01 22:50:16 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Five Hours (Originally Performed By Deorro) [Karaoke Version]-UPH Karaoke.flac 
+2019-09-01 22:50:16 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Yo-El Güero de Sinaloa con el Mariachi Real de Jalisco.flac
+2019-09-01 22:50:19 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Faded-The Harmony Group,Marta Espinosa.flac 
+2019-09-01 22:50:19 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I'm in Here-Pop Feast.flac
+2019-09-01 22:50:19 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Die Young-Cairo Knife Fight.flac 
+2019-09-01 22:50:19 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac
+2019-09-01 22:50:25 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\爱是永恒-古巨基.flac 
+2019-09-01 22:50:25 main.py:146 [INFO] Sing Me To Sleep-Siskiyou 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:50:25 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fade-Alan Walker.flac
+2019-09-01 22:50:27 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fireflies-Lights & Motion.flac 
+2019-09-01 22:50:27 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fade-Alan Walker.flac
+2019-09-01 22:50:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wicked Wonderland-Let The Music Play.flac 
+2019-09-01 22:50:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Darkside-Phubber.flac
+2019-09-01 22:50:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\That Girl-Rasta B..flac 
+2019-09-01 22:50:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Water Under the Bridge-Pop Mania.flac
+2019-09-01 22:50:35 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\一半-薛之谦.flac 
+2019-09-01 22:50:35 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Espiritu-Seve.flac
+2019-09-01 22:50:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac 
+2019-09-01 22:50:46 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac
+2019-09-01 22:50:48 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Yo-El Güero de Sinaloa con el Mariachi Real de Jalisco.flac 
+2019-09-01 22:50:48 main.py:146 [INFO] 爱笑的眼睛-林俊杰 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:50:48 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac
+2019-09-01 22:50:54 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I'm in Here-Pop Feast.flac 
+2019-09-01 22:50:54 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\恋一世的爱-莫文蔚.flac
+2019-09-01 22:51:05 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fade-Alan Walker.flac 
+2019-09-01 22:51:05 main.py:146 [INFO] 修炼爱情-Perfect 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:05 main.py:146 [INFO] 醉赤壁-林俊杰 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:05 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Feel Good-任贤齐.flac
+2019-09-01 22:51:37 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Catch My Breath-Kelly Clarkson,Eric Olson,The Party Machines,Jason Halbert.flac 
+2019-09-01 22:51:37 main.py:146 [INFO] 一百万个可能-Christine Welch 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:37 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Planet-Kitaro.flac
+2019-09-01 22:51:47 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Water Under the Bridge-Pop Mania.flac 
+2019-09-01 22:51:47 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac
+2019-09-01 22:51:52 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac 
+2019-09-01 22:51:52 main.py:146 [INFO] Solo Dance-Bugs in Amber 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:52 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\过客-过客.flac
+2019-09-01 22:51:53 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Version-Version.flac 
+2019-09-01 22:51:53 main.py:146 [INFO] Gotta Have You-Curtis Lee 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:53 main.py:146 [INFO] GQ-Lola Coca 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:53 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\一如年少模样-陈鸿宇.flac
+2019-09-01 22:51:56 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fade-Alan Walker.flac 
+2019-09-01 22:51:56 main.py:146 [INFO] Sound of silence-Sanshiro with clione 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:56 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Sally Gardens-The O'Neill Brothers.flac
+2019-09-01 22:51:59 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Feel Good-任贤齐.flac 
+2019-09-01 22:51:59 main.py:146 [INFO] 往后余生-马良,孙茜茹 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:59 main.py:146 [INFO] 广东爱情故事-郭东昊 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:51:59 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Pink Champagne-Lionel Hampton.flac
+2019-09-01 22:52:03 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\恋一世的爱-莫文蔚.flac 
+2019-09-01 22:52:03 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Turnin’-Krueger.flac
+2019-09-01 22:52:06 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Planet-Kitaro.flac 
+2019-09-01 22:52:06 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Give Me A Reason-The Mist.flac
+2019-09-01 22:52:08 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\月半小夜曲-张穆庭.flac 
+2019-09-01 22:52:08 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Hymn for the Weekend-Power Music Workout.flac
+2019-09-01 22:52:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Pink Champagne-Lionel Hampton.flac 
+2019-09-01 22:52:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Beautiful World-Christoffer Høyer.flac
+2019-09-01 22:52:36 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Live-Celine Dion.flac 
+2019-09-01 22:52:36 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\It Is Well (Live)-Israel Mosehla.flac
+2019-09-01 22:52:40 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Beautiful World-Christoffer Høyer.flac 
+2019-09-01 22:52:40 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Imagination-Curtis Fuller.flac
+2019-09-01 22:52:42 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Espiritu-Seve.flac 
+2019-09-01 22:52:42 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Attention-Vic van Mason.flac
+2019-09-01 22:52:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Sally Gardens-The O'Neill Brothers.flac 
+2019-09-01 22:52:46 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Havana-Ed Clarke.flac
+2019-09-01 22:52:49 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\一如年少模样-陈鸿宇.flac 
+2019-09-01 22:52:49 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Light-Sam Koxx.flac
+2019-09-01 22:52:50 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\过客-过客.flac 
+2019-09-01 22:52:50 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Go Psycho Pt. 2-Ultrasonic.flac
+2019-09-01 22:52:50 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Give Me A Reason-The Mist.flac 
+2019-09-01 22:52:50 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fango-Paolo Spaccamonti.flac
+2019-09-01 22:52:50 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Turnin’-Krueger.flac 
+2019-09-01 22:52:50 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Secrets-OneRepublic.flac
+2019-09-01 22:52:55 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Darkside-Phubber.flac 
+2019-09-01 22:52:55 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wonderland-Wonderland.flac
+2019-09-01 22:53:02 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Hymn for the Weekend-Power Music Workout.flac 
+2019-09-01 22:53:02 main.py:146 [INFO] 追光者-岑宁儿 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:53:02 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\理想三旬-陈鸿宇.flac
+2019-09-01 22:53:06 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\It Is Well (Live)-Israel Mosehla.flac 
+2019-09-01 22:53:06 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Remix-The Kid Daytona.flac
+2019-09-01 22:53:20 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Imagination-Curtis Fuller.flac 
+2019-09-01 22:53:20 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\9 Crimes-InstaHit Crew.flac
+2019-09-01 22:53:24 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Havana-Ed Clarke.flac 
+2019-09-01 22:53:24 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Ready for It-Mystic Roots Band.flac
+2019-09-01 22:53:27 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Attention-Vic van Mason.flac 
+2019-09-01 22:53:27 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Remix-The Kid Daytona.flac
+2019-09-01 22:53:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Light-Sam Koxx.flac 
+2019-09-01 22:53:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Titanium (KCB Remix)-David Guetta,Giorgio Tuinfort,Afrojack.flac
+2019-09-01 22:53:37 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\9 Crimes-InstaHit Crew.flac 
+2019-09-01 22:53:37 main.py:146 [INFO] 送别-韩红 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:53:37 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Photograph-Leaf & The Concepts.flac
+2019-09-01 22:53:39 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Secrets-OneRepublic.flac 
+2019-09-01 22:53:39 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\If You Were My Captain-Big Summer.flac
+2019-09-01 22:53:43 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\理想三旬-陈鸿宇.flac 
+2019-09-01 22:53:43 main.py:146 [INFO] You Won't Let Me-Mike Viola,Rachael Yamagata 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:53:43 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Don't Wanna Live Forever-The Riverdales.flac
+2019-09-01 22:53:47 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Go Psycho Pt. 2-Ultrasonic.flac 
+2019-09-01 22:53:47 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Send My Love (To Your New Lover)-Hannah Dorman.flac
+2019-09-01 22:53:56 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fango-Paolo Spaccamonti.flac 
+2019-09-01 22:53:56 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Set Fire to the Rain-St. Martin's Orchestral Academy Of Los Angeles.flac
+2019-09-01 22:54:02 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Remix-The Kid Daytona.flac 
+2019-09-01 22:54:02 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Hard to Say I'm Sorry-The Lovers.flac
+2019-09-01 22:54:07 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\If You Were My Captain-Big Summer.flac 
+2019-09-01 22:54:07 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Ocean-Colvin Quarmby.flac
+2019-09-01 22:54:11 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Don't Wanna Live Forever-The Riverdales.flac 
+2019-09-01 22:54:11 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Spectre-Royal Trux.flac
+2019-09-01 22:54:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Ready for It-Mystic Roots Band.flac 
+2019-09-01 22:54:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Stitches-Catch This Beat.flac
+2019-09-01 22:54:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Photograph-Leaf & The Concepts.flac 
+2019-09-01 22:54:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lights-Jim Yosef.flac
+2019-09-01 22:54:17 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Remix-The Kid Daytona.flac 
+2019-09-01 22:54:17 main.py:146 [INFO] Jocelin-Leddra Chapman 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:54:17 main.py:146 [INFO] 小半-陈粒 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:54:17 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Born to Do-Songtradr.flac
+2019-09-01 22:54:26 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Send My Love (To Your New Lover)-Hannah Dorman.flac 
+2019-09-01 22:54:26 main.py:146 [INFO] Summertrain-Sandy Coast 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:54:26 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Here With You-The Markus Band.flac
+2019-09-01 22:54:29 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Wonderland-Wonderland.flac 
+2019-09-01 22:54:29 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Glad You Came-Party Hit Kings.flac
+2019-09-01 22:54:30 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Spectre-Royal Trux.flac 
+2019-09-01 22:54:30 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Treasure-Mars Band.flac
+2019-09-01 22:54:30 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Stitches-Catch This Beat.flac 
+2019-09-01 22:54:30 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Like Fire-Sound Nation.flac
+2019-09-01 22:54:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Set Fire to the Rain-St. Martin's Orchestral Academy Of Los Angeles.flac 
+2019-09-01 22:54:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Something Just Like This-Urban Sound Collective.flac
+2019-09-01 22:54:34 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Titanium (KCB Remix)-David Guetta,Giorgio Tuinfort,Afrojack.flac 
+2019-09-01 22:54:34 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\This Is What You Came For-Michelle Simonal.flac
+2019-09-01 22:54:40 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Ocean-Colvin Quarmby.flac 
+2019-09-01 22:54:40 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Tragoudi tou gamou-Vasilis Skoulas.flac
+2019-09-01 22:54:44 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Hard to Say I'm Sorry-The Lovers.flac 
+2019-09-01 22:54:44 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Battle Symphony-L.I..flac
+2019-09-01 22:54:48 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Just Like Fire-Sound Nation.flac 
+2019-09-01 22:54:48 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Please Don't Go-Pop Mania.flac
+2019-09-01 22:55:20 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Born to Do-Songtradr.flac 
+2019-09-01 22:55:20 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Right Now (Na Na Na)-R n B Allstars.flac
+2019-09-01 22:55:20 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lights-Jim Yosef.flac 
+2019-09-01 22:55:20 main.py:146 [INFO] 刚刚好-薛之谦 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:20 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lone Ranger-Paul Cuddeford,L Caminero.flac
+2019-09-01 22:55:22 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Tragoudi tou gamou-Vasilis Skoulas.flac 
+2019-09-01 22:55:22 main.py:146 [INFO] Shape Of You-Ed Sheeran 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:22 main.py:146 [INFO] I Am You-Iamme Candlewick 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:22 main.py:146 [INFO] 你最珍贵-张学友,高慧君 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:22 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Starboy-Vibe2Vibe.flac
+2019-09-01 22:55:22 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Glad You Came-Party Hit Kings.flac 
+2019-09-01 22:55:22 main.py:146 [INFO] 告白气球-房君英 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:22 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Color Blind feat. Leon Monroe (Sean Smith & Spike Rebel Smooth Agent Mix)-Matteo Candura.flac
+2019-09-01 22:55:23 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\This Is What You Came For-Michelle Simonal.flac 
+2019-09-01 22:55:23 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\You're Not Alone-Kristofer Greczula.flac
+2019-09-01 22:55:31 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Treasure-Mars Band.flac 
+2019-09-01 22:55:31 main.py:146 [INFO] 红色高跟鞋-蔡健雅 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:31 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Nothing On You-Music for Quiet Moments.flac
+2019-09-01 22:55:32 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Please Don't Go-Pop Mania.flac 
+2019-09-01 22:55:32 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\凡人歌-李宗盛.flac
+2019-09-01 22:55:45 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Something Just Like This-Urban Sound Collective.flac 
+2019-09-01 22:55:45 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\她说-林俊杰.flac
+2019-09-01 22:55:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Here With You-The Markus Band.flac 
+2019-09-01 22:55:46 main.py:146 [INFO] Closer-Attraction 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:46 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Animals-Dance Hits 2014.flac
+2019-09-01 22:55:47 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Lone Ranger-Paul Cuddeford,L Caminero.flac 
+2019-09-01 22:55:47 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Yourself-Workout Remix Factory.flac
+2019-09-01 22:55:49 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\You're Not Alone-Kristofer Greczula.flac 
+2019-09-01 22:55:49 main.py:146 [INFO] HELLO-阿杜 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:49 main.py:146 [INFO] 夜空中最亮的星-逃跑计划 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:55:49 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Someone Like You-Judson Mancebo.flac
+2019-09-01 22:55:50 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Make You Feel My Love-Rachel Drope.flac
+2019-09-01 22:55:55 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Nothing On You-Music for Quiet Moments.flac 
+2019-09-01 22:55:55 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Stan-The Lounge Brigade.flac
+2019-09-01 22:55:58 main.py:166 [ERROR] HTTPConnectionPool(host='audio01.dmhmusic.com', port=80): Read timed out. (read timeout=3) during download filepath
+2019-09-01 22:55:58 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\你把我灌醉-陈洁仪.flac
+2019-09-01 22:56:01 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Battle Symphony-L.I..flac 
+2019-09-01 22:56:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What about Now-Frankmwangy.flac
+2019-09-01 22:56:01 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\凡人歌-李宗盛.flac 
+2019-09-01 22:56:01 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Gotta Feeling-The Black Eyed Peas.flac
+2019-09-01 22:56:10 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Make You Feel My Love-Rachel Drope.flac 
+2019-09-01 22:56:10 main.py:146 [INFO] 凝音-饿狼传说-凝音♪ 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:10 main.py:146 [INFO] 她来听我的演唱会-傅薇,黄中原 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:10 main.py:146 [INFO] 你的背包-胡彦斌 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:10 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Phoenix-Christian Larsen.flac
+2019-09-01 22:56:13 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Starboy-Vibe2Vibe.flac 
+2019-09-01 22:56:13 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Unstoppable-Ayah Marar.flac
+2019-09-01 22:56:15 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Someone Like You-Judson Mancebo.flac 
+2019-09-01 22:56:15 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\你还要我怎样-薛之谦.flac
+2019-09-01 22:56:21 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Right Now (Na Na Na)-R n B Allstars.flac 
+2019-09-01 22:56:21 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\7 Years-Marcela Mangabeira.flac
+2019-09-01 22:56:35 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What about Now-Frankmwangy.flac 
+2019-09-01 22:56:35 main.py:146 [INFO] 丑八怪-薛之谦 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:35 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\绅士-薛之谦.flac
+2019-09-01 22:56:35 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\绅士-薛之谦.flac 
+2019-09-01 22:56:35 main.py:146 [INFO] 红玫瑰-陈奕迅 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:35 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fantasy-Masafumi Komatsu.flac
+2019-09-01 22:56:45 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Love Yourself-Workout Remix Factory.flac 
+2019-09-01 22:56:45 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The-Krunch.flac
+2019-09-01 22:56:45 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Color Blind feat. Leon Monroe (Sean Smith & Spike Rebel Smooth Agent Mix)-Matteo Candura.flac 
+2019-09-01 22:56:45 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Satellites-Oscar Del Amor,Klaypex.flac
+2019-09-01 22:56:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Animals-Dance Hits 2014.flac 
+2019-09-01 22:56:46 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Nights-Dirty Sound System,Wings & Rider.flac
+2019-09-01 22:56:48 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Phoenix-Christian Larsen.flac 
+2019-09-01 22:56:48 main.py:146 [INFO] 不要说话-陈奕迅 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:56:48 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\You Are My Everything-Pansil.flac
+2019-09-01 22:56:53 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\你把我灌醉-陈洁仪.flac 
+2019-09-01 22:56:53 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Because of You-Marcela Mangabeira.flac
+2019-09-01 22:56:59 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\I Gotta Feeling-The Black Eyed Peas.flac 
+2019-09-01 22:56:59 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\When I Was Your Man-Andrew Wyatt,Philip Lawrence,Ari Levine,Bruno Mars,The Party Machines.flac
+2019-09-01 22:57:05 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Unstoppable-Ayah Marar.flac 
+2019-09-01 22:57:05 main.py:146 [INFO] 演员-薛之谦 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:57:05 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The End-Jayna Feldman,Amanda Campos,Lauren Craig,Autumn Pike.flac
+2019-09-01 22:57:12 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\7 Years-Marcela Mangabeira.flac 
+2019-09-01 22:57:12 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\FourFiveSeconds-Ella Rammelt,Samuel Bate.flac
+2019-09-01 22:57:13 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\你还要我怎样-薛之谦.flac 
+2019-09-01 22:57:13 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What Are Words-Jukebox Heaven.flac
+2019-09-01 22:57:21 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Fantasy-Masafumi Komatsu.flac 
+2019-09-01 22:57:21 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\心如刀割-文宁静.flac
+2019-09-01 22:57:23 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Because of You-Marcela Mangabeira.flac 
+2019-09-01 22:57:23 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\如果这都不算爱-伍佰 & China Blue.flac
+2019-09-01 22:57:37 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\When I Was Your Man-Andrew Wyatt,Philip Lawrence,Ari Levine,Bruno Mars,The Party Machines.flac 
+2019-09-01 22:57:37 main.py:155 [INFO] 下载中: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\New Divide-Linkin Park,University of Oklahoma Marching Band,University of Oklahoma Marching Band,Brian A. Britt.flac
+2019-09-01 22:57:41 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\You Are My Everything-Pansil.flac 
+2019-09-01 22:57:41 main.py:146 [INFO] Sugar-The Karaoke Channel 文件大小小于 10MB, 放弃下载。
+2019-09-01 22:57:43 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The End-Jayna Feldman,Amanda Campos,Lauren Craig,Autumn Pike.flac 
+2019-09-01 22:57:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\New Divide-Linkin Park,University of Oklahoma Marching Band,University of Oklahoma Marching Band,Brian A. Britt.flac 
+2019-09-01 22:57:46 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The Nights-Dirty Sound System,Wings & Rider.flac 
+2019-09-01 22:57:47 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\What Are Words-Jukebox Heaven.flac 
+2019-09-01 22:57:50 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\Satellites-Oscar Del Amor,Klaypex.flac 
+2019-09-01 22:57:52 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\如果这都不算爱-伍佰 & China Blue.flac 
+2019-09-01 22:57:52 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\FourFiveSeconds-Ella Rammelt,Samuel Bate.flac 
+2019-09-01 22:58:04 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\心如刀割-文宁静.flac 
+2019-09-01 22:58:15 main.py:162 [INFO] 下载完成: E:\MyWork\python\NeteaseCloudMusicFlac\songs_dir\dptdpt喜欢的音乐\The-Krunch.flac 
+2019-09-01 22:58:15 main.py:199 [INFO] 共耗时 876.6073796749115 s
