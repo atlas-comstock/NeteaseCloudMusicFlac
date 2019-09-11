@@ -136,14 +136,13 @@ def get_song_info(songid):
     return song_info
 
 
-def download_song(song_info, session, mp3_option, download_folder, display, counter, lock):
+def download_song(song_info, session, mp3_option, download_folder, display, counter):
     if (song_info['data']):
         if not mp3_option and song_info['size'] < 10:
             logger.info("%s-%s 文件大小小于 10MB, 放弃下载。" %
                         (song_info['songname'], song_info['artist']))
-            with lock:
-                counter['giveup'] += 1
-                display.update()
+            counter['giveup'] += 1
+            display.update()
             return None
         else:
             filename = "{0}-{1}.flac".format(
@@ -160,14 +159,12 @@ def download_song(song_info, session, mp3_option, download_folder, display, coun
                             f.write(chunk)
                 logger.info("下载完成: %s " % filepath)
 
-                with lock:
-                    counter["success"] += 1
-                    display.update()
+                counter["success"] += 1
+                display.update()
             except requests.exceptions.Timeout as err:
                 logger.error("%s during download filepath" % err)
-                with lock:
-                    counter['error'] += 1
-                    display.update()
+                counter['error'] += 1
+                display.update()
 
 
 def main():
@@ -186,9 +183,8 @@ def main():
     if not os.path.exists(download_folder):
         os.mkdir(download_folder)
 
-    counter = collections.Counter()
-    threadLock = threading.Lock()
     with ThreadPoolExecutor(max_workers=10) as executor:
+        counter = collections.Counter()
         song_ids = executor.map(get_songid, song_list)
         song_infos = executor.map(get_song_info, song_ids)
         res = [i for i in song_infos if i['data'] == True]
@@ -197,7 +193,7 @@ def main():
         session = requests.session()
         d = tqdm.tqdm(total=len(res))
         download = partial(download_song, session=session, mp3_option=mp3_option,
-                           download_folder=download_folder, display=d, counter=counter, lock=threadLock)
+                           download_folder=download_folder, display=d, counter=counter)
         executor.map(download, res)
 
     end = time.time()
