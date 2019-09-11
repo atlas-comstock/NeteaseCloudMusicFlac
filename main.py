@@ -4,18 +4,15 @@ import collections
 import re
 import logging
 import argparse
-from threading import Thread
-
+import threading
 import requests
 import json
-import urllib.request
-import urllib.error
 import os
 import sys
 import unicodedata
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from functools import partial, reduce
+from concurrent.futures import ThreadPoolExecutor
+from functools import partial
 import tqdm
 
 MINIMUM_SIZE = 10
@@ -139,12 +136,14 @@ def get_song_info(songid):
     return song_info
 
 
-def download_song(song_info, session, mp3_option, download_folder, display, counter):
+def download_song(song_info, session, mp3_option, download_folder, display, counter, lock):
     if (song_info['data']):
         if not mp3_option and song_info['size'] < 10:
             logger.info("%s-%s 文件大小小于 10MB, 放弃下载。" %
                         (song_info['songname'], song_info['artist']))
-            counter['giveup'] += 1
+            with lock:
+                counter['giveup'] += 1
+                display.update()
             return None
         else:
             filename = "{0}-{1}.flac".format(
@@ -160,11 +159,15 @@ def download_song(song_info, session, mp3_option, download_folder, display, coun
                         if chunk:
                             f.write(chunk)
                 logger.info("下载完成: %s " % filepath)
-                display.update()
-                counter["success"] += 1
+
+                with lock:
+                    counter["success"] += 1
+                    display.update()
             except requests.exceptions.Timeout as err:
                 logger.error("%s during download filepath" % err)
-                counter['error'] += 1
+                with lock:
+                    counter['error'] += 1
+                    display.update()
 
 
 def main():
@@ -184,21 +187,23 @@ def main():
         os.mkdir(download_folder)
 
     counter = collections.Counter()
+    threadLock = threading.Lock()
     with ThreadPoolExecutor(max_workers=10) as executor:
         song_ids = executor.map(get_songid, song_list)
         song_infos = executor.map(get_song_info, song_ids)
         res = [i for i in song_infos if i['data'] == True]
+        print("_________________res ={}".format(len(res)))
         logger.info("获取歌曲信息完成，开始下载。")
         session = requests.session()
         d = tqdm.tqdm(total=len(res))
         download = partial(download_song, session=session, mp3_option=mp3_option,
-                           download_folder=download_folder, display=d, counter=counter)
+                           download_folder=download_folder, display=d, counter=counter, lock=threadLock)
         executor.map(download, res)
 
     end = time.time()
     logger.info("共耗时 %s s", str(end - start))
-    print("共完成{}首歌曲的搜索，成功下载歌曲{}首，下载失败的歌曲数为：{}首, 未找到下载资源的歌曲数为：{}首"
-          .format(len(song_list), counter['success'], counter['giveup'], len(song_list) - len(res)))
+    print("共完成{}首歌曲的搜索，成功下载歌曲{}首，资源不满足要求未下载的歌曲数为：{}首, 下载失败的歌曲数为：{}首，未找到下载资源的歌曲数为：{}首"
+          .format(len(song_list), counter['success'], counter['giveup'], counter['error'], len(song_list) - len(res)))
 
 
 # 禁止 requests 模组使用系统代理
