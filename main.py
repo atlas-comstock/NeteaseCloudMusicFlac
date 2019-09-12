@@ -4,7 +4,6 @@ import collections
 import re
 import logging
 import argparse
-import threading
 import requests
 import json
 import os
@@ -188,7 +187,6 @@ def main():
         song_ids = executor.map(get_songid, song_list)
         song_infos = executor.map(get_song_info, song_ids)
         res = [i for i in song_infos if i['data'] == True]
-        print("_________________res ={}".format(len(res)))
         logger.info("获取歌曲信息完成，开始下载。")
         session = requests.session()
         d = tqdm.tqdm(total=len(res))
@@ -198,7 +196,8 @@ def main():
 
     end = time.time()
     logger.info("共耗时 %s s", str(end - start))
-    print("共完成{}首歌曲的搜索，成功下载歌曲{}首，资源不满足要求未下载的歌曲数为：{}首, 下载失败的歌曲数为：{}首，未找到下载资源的歌曲数为：{}首"
+    logger.info("共完成{}首歌曲的搜索，成功下载歌曲{}首，资源不满足要求未下载的歌曲数为：{}首, 下载失败的歌曲数为："
+                "{}首，未找到下载资源的歌曲数为：{}首"
           .format(len(song_list), counter['success'], counter['giveup'], counter['error'], len(song_list) - len(res)))
 
 
