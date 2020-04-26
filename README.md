@@ -5,6 +5,8 @@
 可以使用我的推荐码: http://tidal.refr.cc/F5GX6FV
 有60天试用期.
 
+# 本程序仅供学习之用, 个人已经使用Tidal, 不再使用此工具, 个人也不会再新增功能.
+
 #### [感谢](https://github.com/imfangli/baidu-music-downloader)为 NeteaseCloudMusicFlac 的开发付出过努力以及提出建议的每一个人！
 
 * [Elixir 实现](https://github.com/YongHaoWu/NeteaseCloudMusicFlacElixir)
